@@ -1,4 +1,4 @@
-/*Fonts*/
+/*Fonts ================================================================================= */
 @font-face{
     font-family: 'bmitra';
     src: url('../fonts/BMitra.eot');
@@ -17,11 +17,13 @@
 
 body{ 
 	color:#5F5F5F;
-	text-align:center; font-family: 'helvetica';
+	text-align:center;
+	font-family: 'bmitra';
 	font-size:13px;
 	margin:0px;
 	padding:0px;
 	background-image: url('images/bg.png');
+	direction: rtl;
 }
 
 img           { border:0; vertical-align:top; }
@@ -65,7 +67,7 @@ caption,th,td { vertical-align:top; text-align:left; font-weight:normal; }
 
 /* Content */
 p             { margin:0 0 10px; }
-strong        {font-family: 'helvetica_bold';}
+strong        {font-family: 'bmitra';}
 address       { font-style:normal; line-height:1.75; }
 cite          { font-style:normal; }
 q,
@@ -96,11 +98,6 @@ ul,ol         { list-style:none; }
 .no-margin    { margin:0 !important; }
 .no-padding   { padding:0 !important; }
 .no-bg        { background:none !important; }
-
-
-/* ======================================================================================= */
-
-
 /* Layout ================================================================================ */
 .wrapper { min-width:954px; }
 .page {}
@@ -157,4 +154,9 @@ ul,ol         { list-style:none; }
 .col4-set .col-2 { float:left; width:23.5%; margin:0 2%; }
 .col4-set .col-3 { float:left; width:23.5%; }
 .col4-set .col-4 { float:right; width:23.5%; }
-/* ======================================================================================= */
+/* Global Styles ========================================================================= */
+/* Global site notices */
+.global-site-notice { border:1px solid #DCDCDC; border-width:0 0 1px; background:#ffff90;  line-height:1.25; text-align:center; color:#2f2f2f; }
+.global-site-notice .notice-inner { width:860px; margin:0 auto; padding:12px 0 12px 80px; text-align:right; }
+.global-site-notice .notice-inner p { margin:0; border:1px dotted #cccc73; padding:10px; }
+.global-site-notice .notice-inner .actions { padding-top:10px; }
