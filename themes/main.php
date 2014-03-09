@@ -6,36 +6,36 @@
 	<meta name="description" content="" />
 	<meta name="keywords" content="" />
 	<meta name="robots" content="INDEX,FOLLOW" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
 	<link rel="icon" href="../favicon.ico" type="image/x-icon" />
 	<link rel="shortcut icon" href="../favicon.ico" type="image/x-icon" />
 
-	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 	<!--[if lt IE 7]>
-	<script type="text/javascript">
-	//<![CDATA[
-	    var BLANK_URL = 'http://demo.galathemes.com/gala-giftshop/js/blank.html';
-	    var BLANK_IMG = 'http://demo.galathemes.com/gala-giftshop/js/spacer.gif';
-	//]]>
-	</script>
+		<script type="text/javascript">
+		//<![CDATA[
+		    var BLANK_URL = 'themes/js/blank.html';
+		    var BLANK_IMG = 'themes/js/spacer.gif';
+		//]]>
+		</script>
 	<![endif]-->
 
 	<script type="text/javascript">
-	var ADAPT_CONFIG = {
-	  path: "http://demo.galathemes.com/gala-giftshop/skin/frontend/default/galagiftshop/css/",
-	  dynamic: true,
-	  range: [
-	    '0px    to 760px  = mobile.css',
-	    '760px  to 980px  = 720.css',
-	    '980px  to 1200px = 960.css',
-	    '1200px           = 1200.css'
-	  ]
-	};
-	</script>
+		var ADAPT_CONFIG = {
+		  path: "http://demo.galathemes.com/gala-giftshop/skin/frontend/default/galagiftshop/css/",
+		  dynamic: true,
+		  range: [
+		    '0px    to 760px  = mobile.css',
+		    '760px  to 980px  = 720.css',
+		    '980px  to 1200px = 960.css',
+		    '1200px           = 1200.css'
+		  ]
+		};
+	</script> 
 
-	<script type="text/javascript">
+	<!-- <script type="text/javascript">
 	    var checkPageLayout = '2';
-	</script>
+	</script> -->
 
 
 	<script type="text/javascript">
@@ -50,21 +50,22 @@
 	//]]>
 	</script>
 
-	<link rel="stylesheet" type="text/css" href="http://demo.galathemes.com/gala-giftshop/skin/frontend/default/galagiftshop/css/styles.css" media="all" />
-	<link rel="stylesheet" type="text/css" href="http://demo.galathemes.com/gala-giftshop/skin/frontend/base/default/css/widgets.css" media="all" />
-	<link rel="stylesheet" type="text/css" href="http://demo.galathemes.com/gala-giftshop/skin/frontend/default/galagiftshop/css/em_cloudzoom.css" media="all" />
-	<link rel="stylesheet" type="text/css" href="http://demo.galathemes.com/gala-giftshop/skin/frontend/default/galagiftshop/css/em_variation.css" media="all" />
-	<link rel="stylesheet" type="text/css" href="http://demo.galathemes.com/gala-giftshop/skin/frontend/default/galagiftshop/css/lightbox.css" media="all" />
-	<link rel="stylesheet" type="text/css" href="http://demo.galathemes.com/gala-giftshop/skin/frontend/default/galagiftshop/css/social.css" media="all" />
-	<link rel="stylesheet" type="text/css" href="http://demo.galathemes.com/gala-giftshop/skin/frontend/default/galagiftshop/css/csslider.css" media="all" />
-	<link rel="stylesheet" type="text/css" href="http://demo.galathemes.com/gala-giftshop/skin/frontend/default/galagiftshop/css/isotope.css" media="all" />
-	<link rel="stylesheet" type="text/css" href="http://demo.galathemes.com/gala-giftshop/skin/frontend/default/galagiftshop/em_megamenupro/css/menu.css" media="all" />
-	<link rel="stylesheet" type="text/css" href="http://demo.galathemes.com/gala-giftshop/skin/frontend/base/default/css/em_ajaxcart/em_ajaxcart.css" media="all" />
-	<link rel="stylesheet" type="text/css" href="http://demo.galathemes.com/gala-giftshop/skin/frontend/default/galagiftshop/css/em_quickshop.css" media="all" />
-	<link rel="stylesheet" type="text/css" href="http://demo.galathemes.com/gala-giftshop/skin/frontend/default/galagiftshop/css/fancybox/jquery.fancybox.css" media="all" />
-	<link rel="stylesheet" type="text/css" href="http://demo.galathemes.com/gala-giftshop/skin/frontend/base/default/em_slideshow2/css/settings.css" media="all" />
-	<link rel="stylesheet" type="text/css" href="http://demo.galathemes.com/gala-giftshop/skin/frontend/base/default/em_slideshow2/css/captions.css" media="all" />
-	<link rel="stylesheet" type="text/css" href="http://demo.galathemes.com/gala-giftshop/skin/frontend/default/galagiftshop/css/print.css" media="print" />
+	<link rel="stylesheet" type="text/css" href="themes/css/styles.css" media="all" />
+	<link rel="stylesheet" type="text/css" href="themes/css/widgets.css" media="all" />
+	<link rel="stylesheet" type="text/css" href="themes/css/em_cloudzoom.css" media="all" />
+	<link rel="stylesheet" type="text/css" href="themes/css/em_variation.css" media="all" />
+	<link rel="stylesheet" type="text/css" href="themes/css/lightbox.css" media="all" />
+	<link rel="stylesheet" type="text/css" href="themes/css/social.css" media="all" />
+	<link rel="stylesheet" type="text/css" href="themes/css/csslider.css" media="all" />
+	<link rel="stylesheet" type="text/css" href="themes/css/isotope.css" media="all" />
+	<link rel="stylesheet" type="text/css" href="themes/css/menu.css" media="all" />
+	<link rel="stylesheet" type="text/css" href="themes/css/em_ajaxcart.css" media="all" />
+	<link rel="stylesheet" type="text/css" href="themes/css/em_quickshop.css" media="all" />
+	<link rel="stylesheet" type="text/css" href="themes/css/jquery.fancybox.css" media="all" />
+	<link rel="stylesheet" type="text/css" href="themes/css/settings.css" media="all" />
+	<link rel="stylesheet" type="text/css" href="themes/css/captions.css" media="all" />
+	<link rel="stylesheet" type="text/css" href="themes/css/print.css" media="print" />
+
 	<script type="text/javascript" src="http://demo.galathemes.com/gala-giftshop/js/prototype/prototype.js"></script>
 	<script type="text/javascript" src="http://demo.galathemes.com/gala-giftshop/js/lib/ccard.js"></script>
 	<script type="text/javascript" src="http://demo.galathemes.com/gala-giftshop/js/prototype/validation.js"></script>
@@ -108,31 +109,33 @@
 	<script type="text/javascript" src="http://demo.galathemes.com/gala-giftshop/skin/frontend/default/galagiftshop/js/em_quickshop.js"></script>
 	<script type="text/javascript" src="http://demo.galathemes.com/gala-giftshop/skin/frontend/base/default/em_slideshow2/js/jquery.themepunch.plugins.min.js"></script>
 	<script type="text/javascript" src="http://demo.galathemes.com/gala-giftshop/skin/frontend/base/default/em_slideshow2/js/jquery.themepunch.revolution.min.js"></script>
+
 	<!--[if lt IE 8]>
-	<link rel="stylesheet" type="text/css" href="http://demo.galathemes.com/gala-giftshop/skin/frontend/default/galagiftshop/css/styles-ie.css" media="all" />
-	<script type="text/javascript" src="http://demo.galathemes.com/gala-giftshop/skin/frontend/base/default/em_megamenupro/js/ie7.js"></script>
+		<link rel="stylesheet" type="text/css" href="http://demo.galathemes.com/gala-giftshop/skin/frontend/default/galagiftshop/css/styles-ie.css" media="all" />
+		<script type="text/javascript" src="http://demo.galathemes.com/gala-giftshop/skin/frontend/base/default/em_megamenupro/js/ie7.js"></script>
 	<![endif]-->
 	<!--[if lt IE 7]>
-	<script type="text/javascript" src="http://demo.galathemes.com/gala-giftshop/js/lib/ds-sleight.js"></script>
-	<script type="text/javascript" src="http://demo.galathemes.com/gala-giftshop/skin/frontend/base/default/js/ie6.js"></script>
+		<script type="text/javascript" src="http://demo.galathemes.com/gala-giftshop/js/lib/ds-sleight.js"></script>
+		<script type="text/javascript" src="http://demo.galathemes.com/gala-giftshop/skin/frontend/base/default/js/ie6.js"></script>
 	<![endif]-->
 
 	<script type="text/javascript">
-	//<![CDATA[
-	Mage.Cookies.path     = '/gala-giftshop';
-	Mage.Cookies.domain   = '.demo.galathemes.com';
-	//]]>
+		//<![CDATA[
+		Mage.Cookies.path     = '/gala-giftshop';
+		Mage.Cookies.domain   = '.demo.galathemes.com';
+		//]]>
 	</script>
+
 	<link rel="stylesheet" id="emcssvariation" type="text/css" href="http://demo.galathemes.com/gala-giftshop/skin/frontend/default/galagiftshop/css/theme.css.php?ie=1&general_font=&amp;h1_font=normal+24px%2F1.15+Open+Sans%2CArial%2C+Helvetica%2C+sans-serif&amp;h2_font=&amp;h3_font=normal+18px%2F1.25+Open+Sans%2Chelvetica%2Carial%2Csans-serif&amp;h4_font=&amp;h5_font=&amp;h6_font=&amp;additional_css_file=theme_green.css&amp;custom_css=&amp;page_bg_color=&amp;page_bg_image=url%28http%3A%2F%2Fdemo.galathemes.com%2Fgala-giftshop%2Fmedia%2Fbackground%2Fstores%2F13%2Fpattern_blue.jpg%29&amp;page_bg_position=&amp;page_bg_repeat=&amp;head_text_color=&amp;head_text2_color=&amp;head_text3_color=%23f26463&amp;head_bg_color=&amp;head_bg2_color=%2346d3f8&amp;head_bg3_color=%2364c15d&amp;head_line_color=%233e9f36&amp;head_line2_color=%234dc8e9&amp;head_bg_image=&amp;head_bg_position=&amp;head_bg_repeat=&amp;tm_bg_color=&amp;tm_text_color=&amp;tm_hover_text_color=%231e1e1e&amp;tm_font=&amp;dm_bg_color=&amp;dm_text_color=&amp;dm_text2_color=%2364c15d&amp;dm_text3_color=%23646464&amp;dm_hover_text_color=%23F26463&amp;dm_font=&amp;bd_bg_color=&amp;bd_bg_image=&amp;bd_bg_position=&amp;bd_bg_repeat=&amp;bd_text_color=&amp;bd_text2_color=%23646464&amp;bd_text3_color=%2346d3f8&amp;bd_text4_color=%23f26463&amp;bd_line_color=&amp;bd_line2_color=%236a747c&amp;bd_line3_color=&amp;bd_box_shadow=&amp;bd_rounded_corner=&amp;foot_bg_color=&amp;foot_bg_image=&amp;foot_bg_position=&amp;foot_bg_repeat=&amp;foot_text_color=&amp;foot_line_color=%23969696&amp;btn1_bg_color=%23f26463&amp;btn1_text_color=&amp;btn1_line_color=%23d35150&amp;btn1_font=&amp;btn2_bg_color=%233E9F36&amp;btn2_text_color=&amp;btn2_line_color=%233e9f36&amp;btn2_font="></link>
 
 	<!--[if lt IE 9]>
-	<script type="text/javascript">
-	(function() {
-	  var el = document.getElementById('emcssvariation');
-	  el.parentNode.removeChild(el);
-	})();
-	</script>
-	<link rel="stylesheet" id="emcssvariation" type="text/css" href="http://demo.galathemes.com/gala-giftshop/skin/frontend/default/galagiftshop/css/theme.css.php?ie=1&general_font=&amp;h1_font=normal+24px%2F1.15+Open+Sans%2CArial%2C+Helvetica%2C+sans-serif&amp;h2_font=&amp;h3_font=normal+18px%2F1.25+Open+Sans%2Chelvetica%2Carial%2Csans-serif&amp;h4_font=&amp;h5_font=&amp;h6_font=&amp;additional_css_file=theme_green.css&amp;custom_css=&amp;page_bg_color=&amp;page_bg_image=url%28http%3A%2F%2Fdemo.galathemes.com%2Fgala-giftshop%2Fmedia%2Fbackground%2Fstores%2F13%2Fpattern_blue.jpg%29&amp;page_bg_position=&amp;page_bg_repeat=&amp;head_text_color=&amp;head_text2_color=&amp;head_text3_color=%23f26463&amp;head_bg_color=&amp;head_bg2_color=%2346d3f8&amp;head_bg3_color=%2364c15d&amp;head_line_color=%233e9f36&amp;head_line2_color=%234dc8e9&amp;head_bg_image=&amp;head_bg_position=&amp;head_bg_repeat=&amp;tm_bg_color=&amp;tm_text_color=&amp;tm_hover_text_color=%231e1e1e&amp;tm_font=&amp;dm_bg_color=&amp;dm_text_color=&amp;dm_text2_color=%2364c15d&amp;dm_text3_color=%23646464&amp;dm_hover_text_color=%23F26463&amp;dm_font=&amp;bd_bg_color=&amp;bd_bg_image=&amp;bd_bg_position=&amp;bd_bg_repeat=&amp;bd_text_color=&amp;bd_text2_color=%23646464&amp;bd_text3_color=%2346d3f8&amp;bd_text4_color=%23f26463&amp;bd_line_color=&amp;bd_line2_color=%236a747c&amp;bd_line3_color=&amp;bd_box_shadow=&amp;bd_rounded_corner=&amp;foot_bg_color=&amp;foot_bg_image=&amp;foot_bg_position=&amp;foot_bg_repeat=&amp;foot_text_color=&amp;foot_line_color=%23969696&amp;btn1_bg_color=%23f26463&amp;btn1_text_color=&amp;btn1_line_color=%23d35150&amp;btn1_font=&amp;btn2_bg_color=%233E9F36&amp;btn2_text_color=&amp;btn2_line_color=%233e9f36&amp;btn2_font="></link>
+		<script type="text/javascript">
+			(function() {
+			  var el = document.getElementById('emcssvariation');
+			  el.parentNode.removeChild(el);
+			})();
+		</script>
+		<link rel="stylesheet" id="emcssvariation" type="text/css" href="http://demo.galathemes.com/gala-giftshop/skin/frontend/default/galagiftshop/css/theme.css.php?ie=1&general_font=&amp;h1_font=normal+24px%2F1.15+Open+Sans%2CArial%2C+Helvetica%2C+sans-serif&amp;h2_font=&amp;h3_font=normal+18px%2F1.25+Open+Sans%2Chelvetica%2Carial%2Csans-serif&amp;h4_font=&amp;h5_font=&amp;h6_font=&amp;additional_css_file=theme_green.css&amp;custom_css=&amp;page_bg_color=&amp;page_bg_image=url%28http%3A%2F%2Fdemo.galathemes.com%2Fgala-giftshop%2Fmedia%2Fbackground%2Fstores%2F13%2Fpattern_blue.jpg%29&amp;page_bg_position=&amp;page_bg_repeat=&amp;head_text_color=&amp;head_text2_color=&amp;head_text3_color=%23f26463&amp;head_bg_color=&amp;head_bg2_color=%2346d3f8&amp;head_bg3_color=%2364c15d&amp;head_line_color=%233e9f36&amp;head_line2_color=%234dc8e9&amp;head_bg_image=&amp;head_bg_position=&amp;head_bg_repeat=&amp;tm_bg_color=&amp;tm_text_color=&amp;tm_hover_text_color=%231e1e1e&amp;tm_font=&amp;dm_bg_color=&amp;dm_text_color=&amp;dm_text2_color=%2364c15d&amp;dm_text3_color=%23646464&amp;dm_hover_text_color=%23F26463&amp;dm_font=&amp;bd_bg_color=&amp;bd_bg_image=&amp;bd_bg_position=&amp;bd_bg_repeat=&amp;bd_text_color=&amp;bd_text2_color=%23646464&amp;bd_text3_color=%2346d3f8&amp;bd_text4_color=%23f26463&amp;bd_line_color=&amp;bd_line2_color=%236a747c&amp;bd_line3_color=&amp;bd_box_shadow=&amp;bd_rounded_corner=&amp;foot_bg_color=&amp;foot_bg_image=&amp;foot_bg_position=&amp;foot_bg_repeat=&amp;foot_text_color=&amp;foot_line_color=%23969696&amp;btn1_bg_color=%23f26463&amp;btn1_text_color=&amp;btn1_line_color=%23d35150&amp;btn1_font=&amp;btn2_bg_color=%233E9F36&amp;btn2_text_color=&amp;btn2_line_color=%233e9f36&amp;btn2_font="></link>
 	<![endif]-->
 
 	<script type="text/javascript">
@@ -154,56 +157,56 @@
 	</style>
 
 	<script type="text/javascript">
-	//<![CDATA[
-	var urlSkinsite = 'http://demo.galathemes.com/gala-giftshop/skin/frontend/default/galagiftshop/';
-	LightboxOptions = Object.extend({
-	    fileLoadingImage:        urlSkinsite+'images/loading.gif',     
-	    fileBottomNavCloseImage: urlSkinsite+'images/closelabel.gif',
+		//<![CDATA[
+		var urlSkinsite = 'http://demo.galathemes.com/gala-giftshop/skin/frontend/default/galagiftshop/';
+		LightboxOptions = Object.extend({
+		    fileLoadingImage:        urlSkinsite+'images/loading.gif',     
+		    fileBottomNavCloseImage: urlSkinsite+'images/closelabel.gif',
 
-	    overlayOpacity: 0.8,   // controls transparency of shadow overlay
+		    overlayOpacity: 0.8,   // controls transparency of shadow overlay
 
-	    animate: true,         // toggles resizing animations
-	    resizeSpeed: 7,        // controls the speed of the image resizing animations (1=slowest and 10=fastest)
+		    animate: true,         // toggles resizing animations
+		    resizeSpeed: 7,        // controls the speed of the image resizing animations (1=slowest and 10=fastest)
 
-	    borderSize: 10,         //if you adjust the padding in the CSS, you will need to update this variable
+		    borderSize: 10,         //if you adjust the padding in the CSS, you will need to update this variable
 
-	  // When grouping images this is used to write: Image # of #.
-	  // Change it for non-english localization
-	  labelImage: "Image",
-	  labelOf: "of"
-	}, window.LightboxOptions || {});
-	//]]>
+		  // When grouping images this is used to write: Image # of #.
+		  // Change it for non-english localization
+		  labelImage: "Image",
+		  labelOf: "of"
+		}, window.LightboxOptions || {});
+		//]]>
 	</script>
 
 	<script type="text/javascript">
-	//<![CDATA[
-	optionalZipCountries = ["HK","IE","MO","PA"];
-	//]]>
+		//<![CDATA[
+		optionalZipCountries = ["HK","IE","MO","PA"];
+		//]]>
 	</script>
 	<script type="text/javascript">
-	//<![CDATA[
-	    
-	  if (typeof EM == 'undefined') EM = {};
-	  EM.QuickShop = {
-	    BASE_URL : 'http://demo.galathemes.com/gala-giftshop/index.php/',
-	    QS_FRM_TYPE : 1,
-	    QS_FRM_WIDTH : 960,
-	    QS_FRM_HEIGHT : 650,
-	    QS_TEXT: 'QUICK SHOP',
-	    QS_BTN_WIDTH : 96,
-	    QS_BTN_HEIGHT : 25
-	  };
-	  if(EM.QuickShop.QS_FRM_TYPE == 0 ){
-	    EM.QuickShop.QS_FRM_WIDTH = EM.QuickShop.QS_FRM_WIDTH + "%";
-	    EM.QuickShop.QS_FRM_HEIGHT = EM.QuickShop.QS_FRM_HEIGHT + "%";
-	  }
+		//<![CDATA[
+		    
+		  if (typeof EM == 'undefined') EM = {};
+		  EM.QuickShop = {
+		    BASE_URL : 'http://demo.galathemes.com/gala-giftshop/index.php/',
+		    QS_FRM_TYPE : 1,
+		    QS_FRM_WIDTH : 960,
+		    QS_FRM_HEIGHT : 650,
+		    QS_TEXT: 'QUICK SHOP',
+		    QS_BTN_WIDTH : 96,
+		    QS_BTN_HEIGHT : 25
+		  };
+		  if(EM.QuickShop.QS_FRM_TYPE == 0 ){
+		    EM.QuickShop.QS_FRM_WIDTH = EM.QuickShop.QS_FRM_WIDTH + "%";
+		    EM.QuickShop.QS_FRM_HEIGHT = EM.QuickShop.QS_FRM_HEIGHT + "%";
+		  }
 
-	//]]  
+		//]]  
 	</script> 
 	<script type="text/javascript">
-	//<![CDATA[
+		//<![CDATA[
 	        var Translator = new Translate([]);
-	        //]]>
+	    //]]>
 	</script>
 </head>
 <body class=" cms-index-index cms-galagiftshop-home">
