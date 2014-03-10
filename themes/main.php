@@ -121,12 +121,12 @@
 
 	<script type="text/javascript">
 		//<![CDATA[
-		Mage.Cookies.path     = '/gala-giftshop';
-		Mage.Cookies.domain   = '.demo.galathemes.com';
+		Mage.Cookies.path     = '';
+		Mage.Cookies.domain   = '.mediateq.ir';
 		//]]>
 	</script>
 
-	<link rel="stylesheet" id="emcssvariation" type="text/css" href="http://demo.galathemes.com/gala-giftshop/skin/frontend/default/galagiftshop/css/theme.css.php?ie=1&general_font=&amp;h1_font=normal+24px%2F1.15+Open+Sans%2CArial%2C+Helvetica%2C+sans-serif&amp;h2_font=&amp;h3_font=normal+18px%2F1.25+Open+Sans%2Chelvetica%2Carial%2Csans-serif&amp;h4_font=&amp;h5_font=&amp;h6_font=&amp;additional_css_file=theme_green.css&amp;custom_css=&amp;page_bg_color=&amp;page_bg_image=url%28http%3A%2F%2Fdemo.galathemes.com%2Fgala-giftshop%2Fmedia%2Fbackground%2Fstores%2F13%2Fpattern_blue.jpg%29&amp;page_bg_position=&amp;page_bg_repeat=&amp;head_text_color=&amp;head_text2_color=&amp;head_text3_color=%23f26463&amp;head_bg_color=&amp;head_bg2_color=%2346d3f8&amp;head_bg3_color=%2364c15d&amp;head_line_color=%233e9f36&amp;head_line2_color=%234dc8e9&amp;head_bg_image=&amp;head_bg_position=&amp;head_bg_repeat=&amp;tm_bg_color=&amp;tm_text_color=&amp;tm_hover_text_color=%231e1e1e&amp;tm_font=&amp;dm_bg_color=&amp;dm_text_color=&amp;dm_text2_color=%2364c15d&amp;dm_text3_color=%23646464&amp;dm_hover_text_color=%23F26463&amp;dm_font=&amp;bd_bg_color=&amp;bd_bg_image=&amp;bd_bg_position=&amp;bd_bg_repeat=&amp;bd_text_color=&amp;bd_text2_color=%23646464&amp;bd_text3_color=%2346d3f8&amp;bd_text4_color=%23f26463&amp;bd_line_color=&amp;bd_line2_color=%236a747c&amp;bd_line3_color=&amp;bd_box_shadow=&amp;bd_rounded_corner=&amp;foot_bg_color=&amp;foot_bg_image=&amp;foot_bg_position=&amp;foot_bg_repeat=&amp;foot_text_color=&amp;foot_line_color=%23969696&amp;btn1_bg_color=%23f26463&amp;btn1_text_color=&amp;btn1_line_color=%23d35150&amp;btn1_font=&amp;btn2_bg_color=%233E9F36&amp;btn2_text_color=&amp;btn2_line_color=%233e9f36&amp;btn2_font="></link>
+	<link rel="stylesheet" id="emcssvariation" type="text/css" href="themes/css/theme.css"></link>
 
 	<!--[if lt IE 9]>
 		<script type="text/javascript">
@@ -135,7 +135,7 @@
 			  el.parentNode.removeChild(el);
 			})();
 		</script>
-		<link rel="stylesheet" id="emcssvariation" type="text/css" href="http://demo.galathemes.com/gala-giftshop/skin/frontend/default/galagiftshop/css/theme.css.php?ie=1&general_font=&amp;h1_font=normal+24px%2F1.15+Open+Sans%2CArial%2C+Helvetica%2C+sans-serif&amp;h2_font=&amp;h3_font=normal+18px%2F1.25+Open+Sans%2Chelvetica%2Carial%2Csans-serif&amp;h4_font=&amp;h5_font=&amp;h6_font=&amp;additional_css_file=theme_green.css&amp;custom_css=&amp;page_bg_color=&amp;page_bg_image=url%28http%3A%2F%2Fdemo.galathemes.com%2Fgala-giftshop%2Fmedia%2Fbackground%2Fstores%2F13%2Fpattern_blue.jpg%29&amp;page_bg_position=&amp;page_bg_repeat=&amp;head_text_color=&amp;head_text2_color=&amp;head_text3_color=%23f26463&amp;head_bg_color=&amp;head_bg2_color=%2346d3f8&amp;head_bg3_color=%2364c15d&amp;head_line_color=%233e9f36&amp;head_line2_color=%234dc8e9&amp;head_bg_image=&amp;head_bg_position=&amp;head_bg_repeat=&amp;tm_bg_color=&amp;tm_text_color=&amp;tm_hover_text_color=%231e1e1e&amp;tm_font=&amp;dm_bg_color=&amp;dm_text_color=&amp;dm_text2_color=%2364c15d&amp;dm_text3_color=%23646464&amp;dm_hover_text_color=%23F26463&amp;dm_font=&amp;bd_bg_color=&amp;bd_bg_image=&amp;bd_bg_position=&amp;bd_bg_repeat=&amp;bd_text_color=&amp;bd_text2_color=%23646464&amp;bd_text3_color=%2346d3f8&amp;bd_text4_color=%23f26463&amp;bd_line_color=&amp;bd_line2_color=%236a747c&amp;bd_line3_color=&amp;bd_box_shadow=&amp;bd_rounded_corner=&amp;foot_bg_color=&amp;foot_bg_image=&amp;foot_bg_position=&amp;foot_bg_repeat=&amp;foot_text_color=&amp;foot_line_color=%23969696&amp;btn1_bg_color=%23f26463&amp;btn1_text_color=&amp;btn1_line_color=%23d35150&amp;btn1_font=&amp;btn2_bg_color=%233E9F36&amp;btn2_text_color=&amp;btn2_line_color=%233e9f36&amp;btn2_font="></link>
+		<link rel="stylesheet" id="emcssvariation" type="text/css" href="themes/css/theme1.css"></link>
 	<![endif]-->
 
 	<script type="text/javascript">
