@@ -111,12 +111,12 @@
 	<script type="text/javascript" src="themes/js/jquery.themepunch.revolution.min.js"></script>
 
 	<!--[if lt IE 8]>
-		<link rel="stylesheet" type="text/css" href="http://demo.galathemes.com/gala-giftshop/skin/frontend/default/galagiftshop/css/styles-ie.css" media="all" />
-		<script type="text/javascript" src="http://demo.galathemes.com/gala-giftshop/skin/frontend/base/default/em_megamenupro/js/ie7.js"></script>
+		<link rel="stylesheet" type="text/css" href="themes/css/styles-ie.css" media="all" />
+		<script type="text/javascript" src="themes/js/ie7.js"></script>
 	<![endif]-->
 	<!--[if lt IE 7]>
-		<script type="text/javascript" src="http://demo.galathemes.com/gala-giftshop/js/lib/ds-sleight.js"></script>
-		<script type="text/javascript" src="http://demo.galathemes.com/gala-giftshop/skin/frontend/base/default/js/ie6.js"></script>
+		<script type="text/javascript" src="themes/js/ds-sleight.js"></script>
+		<script type="text/javascript" src="themes/js/ie6.js"></script>
 	<![endif]-->
 
 	<script type="text/javascript">
