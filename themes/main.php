@@ -22,7 +22,7 @@
 
 	<script type="text/javascript">
 		var ADAPT_CONFIG = {
-		  path: "http://demo.galathemes.com/gala-giftshop/skin/frontend/default/galagiftshop/css/",
+		  path: "themes/css/",
 		  dynamic: true,
 		  range: [
 		    '0px    to 760px  = mobile.css',
@@ -1152,59 +1152,22 @@
 										</li>
 									</ul>
 								</li>
-	    
-	                          <li class="menu-item-link menu-item-depth-0  ">
-	            <a href="http://demo.galathemes.com/gala-giftshop/electronics.html" 
-	                          ><span>Handmade Gift</span>
-	                          </a>
-	                    
-	            
-	    
-	                      
-	    
-	                      
-	      
-	                    
-	                                  
-	        </li>
-	    
-	                          <li class="menu-item-link menu-item-depth-0  ">
-	            <a href="http://demo.galathemes.com/gala-giftshop/apparel.html" 
-	                          ><span>Clothes</span>
-	                          </a>
-	                    
-	            
-	    
-	                      
-	    
-	                      
-	      
-	                    
-	                                  
-	        </li>
-	    
-	                          <li class="menu-item-link menu-item-depth-0  menu-item-parent">
-	            <a href="http://demo.galathemes.com/gala-giftshop/furniture.html" 
-	                          ><span>Tempor ut</span>
-	                          </a>
-	                    
-	            
-	    
-	                      
-	    
-	                      
-	      
-	                    
-	                              <ul class="menu-container">    
-	            
-	                    
-	    
-	                      
-	    
-	                          <li class="menu-item-hbox menu-item-depth-1 grid_10 menu-item-parent" style="">
-	                        
-	      
-	                    
+	                          	<li class="menu-item-link menu-item-depth-0  ">
+	            					<a href="http://demo.galathemes.com/gala-giftshop/electronics.html">
+	            						<span>Handmade Gift</span>
+	                          		</a>
+	                          	</li>
+	                          	<li class="menu-item-link menu-item-depth-0  ">
+	            					<a href="http://demo.galathemes.com/gala-giftshop/apparel.html">
+	            						<span>Clothes</span>
+	                          		</a>
+	                          	</li>
+	                          	<li class="menu-item-link menu-item-depth-0  menu-item-parent">
+	            					<a href="http://demo.galathemes.com/gala-giftshop/furniture.html">
+	            						<span>Tempor ut</span>
+	                          		</a>
+	                              	<ul class="menu-container">
+	                          			<li class="menu-item-hbox menu-item-depth-1 grid_10 menu-item-parent" style="">
 	                              <ul class="menu-container">    
 	            
 	                    
