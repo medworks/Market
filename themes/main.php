@@ -157,8 +157,8 @@
 		//<![CDATA[
 		var urlSkinsite = './';
 		LightboxOptions = Object.extend({
-		    fileLoadingImage:        urlSkinsite+'../images/loading.gif',     
-		    fileBottomNavCloseImage: urlSkinsite+'../images/closelabel.gif',
+		    fileLoadingImage:        urlSkinsite+'themes/images/loading.gif',     
+		    fileBottomNavCloseImage: urlSkinsite+'themes/images/closelabel.gif',
 
 		    overlayOpacity: 0.8,   // controls transparency of shadow overlay
 
@@ -208,12 +208,13 @@
 </head>
 <body class=" cms-index-index cms-galagiftshop-home">
 	<div class="wrapper em-box-custom">
-	        <noscript>
+	    <noscript>
 	        <div class="global-site-notice noscript">
 	            <div class="notice-inner">
 	                <p>
-	                    <strong>JavaScript seems to be disabled in your browser.</strong><br />
-	                    You must have JavaScript enabled in your browser to utilize the functionality of this website.                </p>
+	                    <strong>به نظر می رسد جاوا اسکریپت در مرورگر شما غیر فعال می باشد.</strong><br />
+	                    شما باید جاوا اسکریپت را در مرورگر خود فعال نمایید تل بتوانید از قابلیت های این وب سایت بهرمند شوید.
+	                </p>
 	            </div>
 	        </div>
 	    </noscript>
@@ -3085,5 +3086,5 @@
 	  			</div>
 			</div>
 	<p id="back-top"><a title="Back to Top" href="#top">Back to Top</a></p>
-	</body>
+</body>
 </html>

@@ -1546,7 +1546,7 @@ ul.add-to-links { padding:0; list-style:none; }
 .wrapper.em-box-custom .em-header-content{
 float:left;
 background-color:#ffffff;
-background-image:url(../images/stripes/blank.gif);
+background-image:url(../images/blank.gif);
 background-position:0 0;
 background-repeat:repeat;}
 
@@ -1555,7 +1555,7 @@ background-repeat:repeat;}
 .adapt-0 .header-menu-content,
 .wrapper.em-box-custom .header-menu-content{
 background-color:#ffffff;
-background-image:url(../images/stripes/blank.gif);
+background-image:url(../images/blank.gif);
 background-position:0 0;
 background-repeat:repeat;}
 .header-menu-content{float:left;width:100%;}
@@ -1568,7 +1568,7 @@ float:left;
 width:100%;
 margin: 0 auto;
 background-color:#ffffff;
-background-image:url(../images/stripes/blank.gif);
+background-image:url(../images/blank.gif);
 background-position:0 0;
 background-repeat:repeat;
 position:relative;
@@ -1668,7 +1668,7 @@ text-transform:uppercase;}
 /*main*/
 .em-main-container{
 background-color:#fff;
-background-image: url(../images/stripes/blank.gif);
+background-image: url(../images/blank.gif);
 background-position:0 0;
 background-repeat:repeat;
 clear:both;
@@ -1676,7 +1676,7 @@ clear:both;
 .wrapper.em-box-custom .em-main-container{background-color:transparent;background-image:none;}
 .wrapper.em-box-custom .em-main{
 background-color:#fff;
-background-image: url(../images/stripes/blank.gif);
+background-image: url(../images/blank.gif);
 background-position:0 0;
 background-repeat:repeat;}
 .em-main-content{display:inline-block;margin-top:5px;margin-bottom:25px;min-height:445px;}
@@ -1834,13 +1834,13 @@ padding-top:4px;margin-bottom:10px;}
 /*========== Footer Box ==========*/
 .em-footer-container{
 background-color:#fff;
-background-image: url(../images/stripes/blank.gif);
+background-image: url(../images/blank.gif);
 background-position:0 0;
 background-repeat:repeat;}
 .wrapper.em-box-custom .em-footer-container{background:none;}
 .wrapper.em-box-custom .em-footer-container .container_24{
 background-color:#fff;
-background-image: url(../images/stripes/blank.gif);
+background-image: url(../images/blank.gif);
 background-position:0 0;
 background-repeat:repeat;
 clear:both;
