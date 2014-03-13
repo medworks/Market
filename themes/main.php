@@ -43,7 +43,7 @@
 	  var review = 'Review';
 	    var isMobile = /iPhone|iPod|iPad|Phone|Mobile|Android|hpwos/i.test(navigator.userAgent);
 	    var isPhone = /iPhone|iPod|Phone|Android/i.test(navigator.userAgent);
-	    var baseUrl = 'http://demo.galathemes.com/gala-giftshop/index.php/';
+	    var baseUrl = 'http://www.mediateq.ir/index.php/';
 	    var AJAXCART_AUTOCLOSE = '5';
 	    var FREEZED_TOP_MENU = '0';
 	    var VIEWMODE = 'cloudzoom'; 
@@ -228,13 +228,13 @@
 				                    <p class="welcome-msg">Default welcome msg! </p>
 				                    <ul class="links">
 				                        <li class="first" >
-				                        	<a href="http://demo.galathemes.com/gala-giftshop/index.php/customer/account/" title="My Account" >My Account</a>
+				                        	<a href="#" title="" >My Account</a>
 				                        </li>
 		                                <li >
-		                                	<a href="http://demo.galathemes.com/gala-giftshop/index.php/checkout/" title="Checkout" class="top-link-checkout">Checkout</a>
+		                                	<a href="#" title="" class="top-link-checkout">Checkout</a>
 		                                </li>
 		                                <li class=" last" >
-		                                	<a href="http://demo.galathemes.com/gala-giftshop/index.php/wishlist/" title="My Wishlist" >My Wishlist</a>
+		                                	<a href="#" title="" >My Wishlist</a>
 		                                </li>
 				            		</ul>
 				                    <p class="icon phone">
@@ -243,13 +243,13 @@
 				                    <div class="form-language">
 					  					<ul>
 					                        <li class="icon-language selected ">
-									            <a class="english" href="http://demo.galathemes.com/gala-giftshop/index.php/?___store=green_eng&amp;___from_store=green_eng" style="background-image:url(http://demo.galathemes.com/gala-giftshop/skin/frontend/default/galagiftshop/images/language/english.png); background-repeat: no-repeat;" title="english">English</a>
+									            <a class="english" href="#" style="background-image:url(themes/images/others/english.png); background-repeat: no-repeat;" title="">English</a>
 									        </li>
 					                        <li class="icon-language ">
-									            <a class="french" href="http://demo.galathemes.com/gala-giftshop/index.php/?___store=green_fre&amp;___from_store=green_eng" style="background-image:url(http://demo.galathemes.com/gala-giftshop/skin/frontend/default/galagiftshop/images/language/french.png); background-repeat: no-repeat;" title="french">French</a>
+									            <a class="french" href="#" style="background-image:url(themes/images/others/french.png); background-repeat: no-repeat;" title="">French</a>
 									        </li>
 					                        <li class="icon-language ">
-									            <a class="german" href="http://demo.galathemes.com/gala-giftshop/index.php/?___store=green_ger&amp;___from_store=green_eng" style="background-image:url(http://demo.galathemes.com/gala-giftshop/skin/frontend/default/galagiftshop/images/language/german.png); background-repeat: no-repeat;" title="german">German</a>
+									            <a class="german" href="#" style="background-image:url(themes/images/others/german.png); background-repeat: no-repeat;" title="">German</a>
 									        </li>
 					        			</ul>
 					  					<script type="text/javascript">decorateGeneric($$('.form-language ul li'), ['first','last'])</script>
@@ -258,13 +258,13 @@
 					    				<div class="block-content">
 					          				<ul class="select-curency">
 					                            <li class="">
-									              	<a href="http://demo.galathemes.com/gala-giftshop/index.php/directory/currency/switch/currency/GBP/uenc/aHR0cDovL2RlbW8uZ2FsYXRoZW1lcy5jb20vZ2FsYS1naWZ0c2hvcC9pbmRleC5waHA_X19fc3RvcmU9Z3JlZW5fZW5n/"  title="British Pound Sterling">£</a>
+									              	<a href="#"  title="">£</a>
 									            </li>
 					                            <li class="">
-									              <a href="http://demo.galathemes.com/gala-giftshop/index.php/directory/currency/switch/currency/EUR/uenc/aHR0cDovL2RlbW8uZ2FsYXRoZW1lcy5jb20vZ2FsYS1naWZ0c2hvcC9pbmRleC5waHA_X19fc3RvcmU9Z3JlZW5fZW5n/"  title="Euro">€</a>
+									              <a href="#"  title="">€</a>
 									            </li>
 					                            <li class="selected">
-									            	<a href="http://demo.galathemes.com/gala-giftshop/index.php/directory/currency/switch/currency/USD/uenc/aHR0cDovL2RlbW8uZ2FsYXRoZW1lcy5jb20vZ2FsYS1naWZ0c2hvcC9pbmRleC5waHA_X19fc3RvcmU9Z3JlZW5fZW5n/"  title="US Dollar">$</a>
+									            	<a href="#"  title="">$</a>
 									            </li>
 									        </ul>
 									    </div>
@@ -274,11 +274,11 @@
 					  					<div class="toolbar-title">
 					    					<label for="select-store">Store:</label>
 										    <select id="select-store" title="Select Store" onchange="location.href=this.value">
-								                <option value="http://demo.galathemes.com/gala-giftshop/index.php/?___store=blue_eng">Blue Wide</option>
-								                <option value="http://demo.galathemes.com/gala-giftshop/index.php/?___store=default">Default Wide</option>
+								                <option value="">Blue Wide</option>
+								                <option value="">Default Wide</option>
 								                <option value="" selected="selected">Green Box</option>
-								                <option value="http://demo.galathemes.com/gala-giftshop/index.php/?___store=black_eng">Orange Wide</option>
-								                <option value="http://demo.galathemes.com/gala-giftshop/index.php/?___store=red_eng">Purple Box</option>
+								                <option value="">Orange Wide</option>
+								                <option value="">Purple Box</option>
 									        </select>
 				  						</div>
 									</div>   
@@ -288,16 +288,16 @@
 			        	<div class="clear"></div>
 				        <div class="grid_24 header-bottom">                
 				            <div class="header-bottom-content">
-				                <a href="http://demo.galathemes.com/gala-giftshop/index.php/" title="Gala GiftShop Magento Theme" class="logo">
+				                <a href="./" title="" class="logo">
 				                	<strong>Gala GiftShop Magento Theme</strong>
-				                	<img src="http://demo.galathemes.com/gala-giftshop/skin/frontend/default/galagiftshop/images/logo.png" alt="Gala GiftShop Magento Theme" />
+				                	<img src="themes/images/logo.png" alt="" />
 				                </a>
 			                    <ul class="link-bottom">
-			                        <li class="register"><a title="Register" href="http://demo.galathemes.com/gala-giftshop/index.php/customer/account/create">Register</a></li>
-			                        <li class="login"><a title="Sign in" href="http://demo.galathemes.com/gala-giftshop/index.php/customer/account/login/" >Sign in</a></li>                    
+			                        <li class="register"><a title="Register" href="#">Register</a></li>
+			                        <li class="login"><a title="Sign in" href="#" >Sign in</a></li>                    
 			                    </ul>
 			                    <div class="em-top-search">
-			                    	<form id="search_mini_form" action="http://demo.galathemes.com/gala-giftshop/index.php/catalogsearch/result/" method="get">    
+			                    	<form id="search_mini_form" action="" method="get">    
 			    						<div class="form-search">        
 			        						<div class="input-search">
 			            						<div class="input-cate input_cat">
@@ -345,7 +345,10 @@
 			                	<div class="no_quickshop top-cart-inner" id="click">
 			    					<div class="link-top-cart" id="link-top-cart" >
 			        					<p>
-			        						<a href="http://demo.galathemes.com/gala-giftshop/index.php/checkout/cart/" id="topcartlink" class="top-link-cart"><span class="icon top-cart"></span><span class="qty-top-cart"> 0</span></a>
+			        						<a href="#" id="topcartlink" class="top-link-cart">
+			        							<span class="icon top-cart"></span>
+			        							<span class="qty-top-cart"> 0</span>
+			        						</a>
 			        					</p>
 			  						</div>
 			    					<div class="top-cart-content" id="top_cart" style="display: none;">
@@ -426,7 +429,7 @@
 									    <ul>
 									      <!-- THE BOXSLIDE EFFECT EXAMPLES  WITH LINK ON THE MAIN SLIDE EXAMPLE -->
 									        <li data-transition="demo" data-slotamount="7"  data-link="furniture.html" data-delay="7000" >
-									           	<img src="http://demo.galathemes.com/gala-giftshop/media/em_slideshow/1373613854_0_slide_banner_01.jpg" alt="" data-fullwidthcentering="true" />
+									           	<img src="themes/images/others/1373613854_0_slide_banner_01.jpg" alt="" data-fullwidthcentering="true" />
 									            <div class="caption lfb bkg_color" data-x="0" data-y="335"  data-speed="1000" data-start="1000"  data-easing="easeInOutQuint" >
 									            	<p>bkg_color</p>
 									            </div>
@@ -441,7 +444,7 @@
 									            </div>
 									        </li>
 									        <li data-transition="demo" data-slotamount="7"  data-link="apparel.html" data-delay="7000" >
-									           	<img src="http://demo.galathemes.com/gala-giftshop/media/em_slideshow/1373613854_1_slide_banner_02.jpg" alt="" data-fullwidthcentering="true" />
+									           	<img src="themes/images/others/1373613854_1_slide_banner_02.jpg" alt="" data-fullwidthcentering="true" />
 									            <div class="caption lfl bkg_color" data-x="0" data-y="335"  data-speed="1000" data-start="1000"  data-easing="easeInOutBounce" >
 									            	<p>bkg_color</p>
 									            </div>
@@ -456,7 +459,7 @@
 									            </div>
 									        </li>
 									        <li data-transition="demo" data-slotamount="7"  data-link="electronics.html" data-delay="7000" >
-									            <img src="http://demo.galathemes.com/gala-giftshop/media/em_slideshow/1373613854_2_slide_banner_03.jpg" alt="" data-fullwidthcentering="true" />
+									            <img src="themes/images/others/1373613854_2_slide_banner_03.jpg" alt="" data-fullwidthcentering="true" />
 							                    <div class="caption lfr bkg_color" data-x="0" data-y="335"  data-speed="1000" data-start="1000"  data-easing="easeInOutQuint" >
 							                    	<p>bkg_color</p>
 							                    </div>
@@ -540,23 +543,23 @@
 							<div class="home-banner">
 								<div class="box ">
 									<a href="#">
-										<img class="fluid" src="http://demo.galathemes.com/gala-giftshop/skin/frontend/default/galagiftshop/images/home_banner_01.jpg" alt="sample-banner" />
+										<img class="fluid" src="themes/images/others/home_banner_01.jpg" alt="" />
 									</a>
 								</div>
 								<div class="box">
 									<a href="#">
-										<img class="fluid" src="http://demo.galathemes.com/gala-giftshop/skin/frontend/default/galagiftshop/images/home_banner_02.jpg" alt="sample-banner" />
+										<img class="fluid" src="themes/images/others/home_banner_02.jpg" alt="" />
 									</a>
 								</div>
 								<div class="box last">
 									<a href="#">
-										<img class="fluid" src="http://demo.galathemes.com/gala-giftshop/skin/frontend/default/galagiftshop/images/home_banner_03.jpg" alt="sample-banner" />
+										<img class="fluid" src="themes/images/others/home_banner_03.jpg" alt="" />
 									</a>
 								</div>
 							</div>
 							<div class="new widgets_home">
 								<p class="home-title">
-									<a href="http://demo.galathemes.com/gala-giftshop/furniture.html">View all products</a>
+									<a href="#">View all products</a>
 								</p>
 								<div class="set-top-left">
 								    <div class="widget-title">
@@ -566,18 +569,18 @@
 				      					<div class="widget-products new-arrival">
 				                            <ul class="products-grid widget-products-grid-4">
 				                    			<li class="item first" style="  ">
-				                                    <a href="http://demo.galathemes.com/gala-giftshop/index.php/19-widescreen-flat-panel-lcd-monitor.html" title="19&quot; Widescreen Flat-Panel LCD Monitor" class="product-image">
+				                                    <a href="#" title="" class="product-image">
 				                                    	<!--show label product - label extension is required-->
 				              							<span class="productlabels_icons">
 				              								<span class="label sale"></span>
 				              							</span>
-				              							<img src="http://demo.galathemes.com/gala-giftshop/media/catalog/product/cache/13/small_image/215x215/9df78eab33525d08d6e5fb8d27136e95/1/9/19-widescreen-flat-panel-lcd-monitor.jpg" width="215" height="215" alt="19&quot; Widescreen Flat-Panel LCD Monitor" />
+				              							<img src="themes/images/others/19-widescreen-flat-panel-lcd-monitor.jpg" width="215" height="215" alt="" />
 				              						</a>             
 				                        			<div class="product-shop">
 				              							<div class="f-fix">
 				                							<!--product name-->
 				                                  			<h3 class="product-name">
-				                                  				<a href="http://demo.galathemes.com/gala-giftshop/index.php/19-widescreen-flat-panel-lcd-monitor.html" title="19&quot; Widescreen Flat-Panel LCD Monitor">19&quot; Widescreen Flat-Panel LCD Monitor</a>
+				                                  				<a href="#" title="">19&quot; Widescreen Flat-Panel LCD Monitor</a>
 				                                  			</h3>
 											                <!--product description-->
 											                <!--product reviews-->                           
@@ -600,15 +603,15 @@
 											        </div>
 											    </li>
 			                                    <li class="item" style="  ">
-			                                    	<a href="http://demo.galathemes.com/gala-giftshop/index.php/30-flat-panel-tft-lcd-cinema-hd-monitor.html" title="30&quot; Flat-Panel TFT-LCD Cinema HD Monitor" class="product-image">
+			                                    	<a href="#" title="" class="product-image">
 			                                  			<!--show label product - label extension is required-->
-			                                            <img src="http://demo.galathemes.com/gala-giftshop/media/catalog/product/cache/13/small_image/215x215/9df78eab33525d08d6e5fb8d27136e95/3/9/39.jpg" width="215" height="215" alt="30&quot; Flat-Panel TFT-LCD Cinema HD Monitor" />
+			                                            <img src="themes/images/others/39.jpg" width="215" height="215" alt="" />
 			                                        </a>              
 			                        				<div class="product-shop">
 										              	<div class="f-fix">
 										                	<!--product name-->
 				                                  			<h3 class="product-name">
-				                                  				<a href="http://demo.galathemes.com/gala-giftshop/index.php/30-flat-panel-tft-lcd-cinema-hd-monitor.html" title="30&quot; Flat-Panel TFT-LCD Cinema HD Monitor">30&quot; Flat-Panel TFT-LCD Cinema HD Monitor</a>
+				                                  				<a href="#" title="">30&quot; Flat-Panel TFT-LCD Cinema HD Monitor</a>
 				                                  			</h3>
 				                							<!--product description-->           
 				                							<!--product reviews-->                          
@@ -631,18 +634,18 @@
 										            </div>
 										        </li>
 			                                    <li class="item" style="  ">
-			                                    	<a href="http://demo.galathemes.com/gala-giftshop/index.php/computer.html" title="Computer" class="product-image">
+			                                    	<a href="#" title="" class="product-image">
 			                                        <!--show label product - label extension is required-->
 			              								<span class="productlabels_icons">
 			              									<span class="label bestseller"></span>
 			              								</span>
-			              								<img src="http://demo.galathemes.com/gala-giftshop/media/catalog/product/cache/13/small_image/215x215/9df78eab33525d08d6e5fb8d27136e95/c/o/computer.jpg" width="215" height="215" alt="Computer" />
+			              								<img src="themes/images/others/computer.jpg" width="215" height="215" alt="" />
 			              							</a>             
 			                        				<div class="product-shop">
 			              								<div class="f-fix">
 			                								<!--product name-->
 			                                  				<h3 class="product-name">
-			                                  					<a href="http://demo.galathemes.com/gala-giftshop/index.php/computer.html" title="Computer">Computer</a>
+			                                  					<a href="#" title="">Computer</a>
 			                                  				</h3>
 			                								<!--product description-->             
 			            									<!--product reviews-->                                                 
@@ -672,18 +675,18 @@
 			                    			</ul>
 			                                <ul class="products-grid widget-products-grid-4">
 			                    				<li class="item first" style="  ">
-			                                    	<a href="http://demo.galathemes.com/gala-giftshop/index.php/htc-touch-diamond.html" title="HTC Touch Diamond" class="product-image">
+			                                    	<a href="#" title="" class="product-image">
 			                                      	<!--show label product - label extension is required-->
 			              								<span class="productlabels_icons">
 			              									<span class="label new"></span>
 			              								</span>
-			              								<img src="http://demo.galathemes.com/gala-giftshop/media/catalog/product/cache/13/small_image/215x215/9df78eab33525d08d6e5fb8d27136e95/5/_/5_1.jpg" width="215" height="215" alt="HTC Touch Diamond" />
+			              								<img src="themes/images/others/5_1.jpg" width="215" height="215" alt="" />
 			              							</a>             
 			                        				<div class="product-shop">
 			              								<div class="f-fix">
 			            									<!--product name-->
 			                              					<h3 class="product-name">
-			                              						<a href="http://demo.galathemes.com/gala-giftshop/index.php/htc-touch-diamond.html" title="HTC Touch Diamond">HTC Touch Diamond</a>
+			                              						<a href="#" title="">HTC Touch Diamond</a>
 			                              					</h3>
 			                								<!--product description-->
 			                								<!--product reviews-->                               
@@ -711,15 +714,15 @@
 								            		</div>
 									          	</li>
 			                                    <li class="item" style="  ">
-			                                    	<a href="http://demo.galathemes.com/gala-giftshop/index.php/microsoft-wireless-optical-mouse-5000.html" title="Logitech Cordless Optical Trackman" class="product-image">
+			                                    	<a href="#" title="" class="product-image">
 			                                      		<!--show label product - label extension is required-->
-			                                            <img src="http://demo.galathemes.com/gala-giftshop/media/catalog/product/cache/13/small_image/215x215/9df78eab33525d08d6e5fb8d27136e95/l/o/logitech-cordless-optical-trackman.jpg" width="215" height="215" alt="Logitech Cordless Optical Trackman" />
+			                                            <img src="themes/images/others/logitech-cordless-optical-trackman.jpg" width="215" height="215" alt="" />
 			                                        </a>             
 			                        				<div class="product-shop">
 			              								<div class="f-fix">
 			              									<!--product name-->
 			                                  				<h3 class="product-name">
-			                                  					<a href="http://demo.galathemes.com/gala-giftshop/index.php/microsoft-wireless-optical-mouse-5000.html" title="Logitech Cordless Optical Trackman">Logitech Cordless Optical Trackman</a>
+			                                  					<a href="#" title="">Logitech Cordless Optical Trackman</a>
 			                                  				</h3>
 			                								<!--product description-->
 			                								<!--product reviews-->
@@ -751,7 +754,7 @@
 							</div>
 							<div class="sale widgets_home">
 								<p class="home-title">
-									<a href="http://demo.galathemes.com/gala-giftshop/furniture.html">View all products</a>
+									<a href="#">View all products</a>
 								</p>
 								<div class="set-top-left">
 		    						<div class="widget-title">
@@ -763,15 +766,15 @@
 										<div class="widget-products">
 		                            		<ul class="products-grid widget-products-grid-">
 		                              			<li class="item first" style="  ">
-		                                    		<a href="http://demo.galathemes.com/gala-giftshop/index.php/chair.html" title="Chair" class="product-image">
+		                                    		<a href="#" title="" class="product-image">
 		                                      		<!--show label product - label extension is required-->
-		                                                <img src="http://demo.galathemes.com/gala-giftshop/media/catalog/product/cache/13/small_image/215x215/9df78eab33525d08d6e5fb8d27136e95/c/h/chair.jpg" width="215" height="215" alt="Chair" />
+		                                                <img src="themes/images/others/chair.jpg" width="215" height="215" alt="" />
 		                                            </a>
 		            								<div class="product-shop">
 		              									<div class="f-fix">
 		                									<!--product name-->
 		                                  					<h3 class="product-name">
-		                                  						<a href="http://demo.galathemes.com/gala-giftshop/index.php/chair.html" title="Chair">Chair</a>
+		                                  						<a href="#" title="">Chair</a>
 		                                  					</h3>
 		                									<!--product description-->              
 		                									<!--product reviews-->  
@@ -799,18 +802,18 @@
 											        </div>
 											    </li>
 		                                        <li class="item" style="  ">
-		                                    		<a href="http://demo.galathemes.com/gala-giftshop/index.php/computer.html" title="Computer" class="product-image">
+		                                    		<a href="#" title="" class="product-image">
 		                                      			<!--show label product - label extension is required-->
 		              									<span class="productlabels_icons">
 		              										<span class="label bestseller"></span>
 		              									</span>
-		              									<img src="http://demo.galathemes.com/gala-giftshop/media/catalog/product/cache/13/small_image/215x215/9df78eab33525d08d6e5fb8d27136e95/c/o/computer.jpg" width="215" height="215" alt="Computer" />
+		              									<img src="themes/images/others/computer.jpg" width="215" height="215" alt="" />
 		              								</a>
 		            								<div class="product-shop">
 		          										<div class="f-fix">
 			                							<!--product name-->
 			                                  				<h3 class="product-name">
-			                                  					<a href="http://demo.galathemes.com/gala-giftshop/index.php/computer.html" title="Computer">Computer</a>
+			                                  					<a href="#" title="">Computer</a>
 			                                  				</h3>
 			                								<!--product description-->              
 			                								<!--product reviews-->                 
@@ -855,7 +858,7 @@
 									<div class="sample-block">
 										<div class="sample-content sample-left">
 											<a title="" href="#">
-												<img class="fluid" src="http://demo.galathemes.com/gala-giftshop/media/wysiwyg/home_banner_04.jpg" alt="" />
+												<img class="fluid" src="themes/images/others/home_banner_04.jpg" alt="" />
 											</a>
 										</div>
 										<div class="sample-content sample-right">
@@ -867,7 +870,7 @@
 									<div class="sample-block last">
 										<div class="sample-content sample-left">
 											<a title="" href="#">
-												<img class="fluid" src="http://demo.galathemes.com/gala-giftshop/media/wysiwyg/home_banner_05.jpg" alt="" />
+												<img class="fluid" src="themes/images/others/home_banner_05.jpg" alt="" />
 											</a>
 										</div>
 										<div class="sample-content sample-right">
@@ -880,7 +883,7 @@
 							</div>
 							<div class="featured widgets_home">
 								<p class="home-title">
-									<a href="http://demo.galathemes.com/gala-giftshop/furniture.html">View all products</a>
+									<a href="#">View all products</a>
 								</p>
 								<div>
 								    <div class="widget-title">
@@ -892,8 +895,8 @@
 				      					<div class="widget-products featured-custom-home">
 				                            <ul class="isotope" id="container">         
 				          						<li class="iso-item first" style="  ">
-				                                    <a href="http://demo.galathemes.com/gala-giftshop/index.php/19-widescreen-flat-panel-lcd-monitor.html" title="19&quot; Widescreen Flat-Panel LCD Monitor" class="product-image">
-				                                        <img src="http://demo.galathemes.com/gala-giftshop/media/catalog/product/cache/13/small_image/100x100/9df78eab33525d08d6e5fb8d27136e95/1/9/19-widescreen-flat-panel-lcd-monitor.jpg" width="100" height="100" alt="19&quot; Widescreen Flat-Panel LCD Monitor" />
+				                                    <a href="#" title="" class="product-image">
+				                                        <img src="themes/images/others/19-widescreen-flat-panel-lcd-monitor.jpg" width="100" height="100" alt="" />
 				                                    </a>
 				            						<div class="product-shop">
 										              	<div class="f-fix">
@@ -907,8 +910,8 @@
 										            </div>
 									          	</li>                                  
 				          						<li class="iso-item" style="  ">
-				                                    <a href="http://demo.galathemes.com/gala-giftshop/index.php/22-syncmaster-lcd-monitor.html" title="22&quot; Syncmaster LCD Monitor" class="product-image">
-				                                        <img src="http://demo.galathemes.com/gala-giftshop/media/catalog/product/cache/13/small_image/100x100/9df78eab33525d08d6e5fb8d27136e95/2/2/22-syncmaster-lcd-monitor.jpg" width="100" height="100" alt="22&quot; Syncmaster LCD Monitor" />
+				                                    <a href="#" title="" class="product-image">
+				                                        <img src="themes/images/others/22-syncmaster-lcd-monitor.jpg" width="100" height="100" alt="" />
 				                                    </a>
 				            						<div class="product-shop">
 											            <div class="f-fix">
@@ -956,7 +959,7 @@
 				    				<div class="em_nav" id="toogle_menu_1_9355">
 				      					<ul class="vnav main-menu">
 				                        	<li class="menu-item-link menu-item-depth-0  menu-item-parent">
-				            					<a href="http://demo.galathemes.com/gala-giftshop/furniture.html">
+				            					<a href="#">
 				            						<span>Dolor sit</span>
 				                          		</a>
 				                              	<ul class="menu-container">
@@ -968,42 +971,42 @@
 				            											<h5>Vestibulum lore</h5>
 																		<ul class="em-catalog-navigation ">
 				    														<li class="level0 nav-1 first">
-																				<a href="http://demo.galathemes.com/gala-giftshop/index.php/electronics/computers/build-your-own.html">
+																				<a href="#">
 																					<span>Build Your Own</span>
 																				</a>
 																			</li>
 																			<li class="level0 nav-2">
-																				<a href="http://demo.galathemes.com/gala-giftshop/index.php/electronics/computers/laptops.html">
+																				<a href="#">
 																					<span>Laptops</span>
 																				</a>
 																			</li>
 																			<li class="level0 nav-3">
-																				<a href="http://demo.galathemes.com/gala-giftshop/index.php/electronics/computers/hard-drives.html">
+																				<a href="#">
 																					<span>Hard Drives</span>
 																				</a>
 																			</li>
 																			<li class="level0 nav-4">
-																				<a href="http://demo.galathemes.com/gala-giftshop/index.php/electronics/computers/monitors.html">
+																				<a href="#">
 																					<span>Monitors</span>
 																				</a>
 																			</li>
 																			<li class="level0 nav-5">
-																				<a href="http://demo.galathemes.com/gala-giftshop/index.php/electronics/computers/ram-memory.html">
+																				<a href="#">
 																					<span>RAM / Memory</span>
 																				</a>
 																			</li>
 																			<li class="level0 nav-6">
-																				<a href="http://demo.galathemes.com/gala-giftshop/index.php/electronics/computers/cases.html">
+																				<a href="#">
 																					<span>Cases</span>
 																				</a>
 																			</li>
 																			<li class="level0 nav-7">
-																				<a href="http://demo.galathemes.com/gala-giftshop/index.php/electronics/computers/processors.html">
+																				<a href="#">
 																					<span>Processors</span>
 																				</a>
 																			</li>
 																			<li class="level0 nav-8 last">
-																				<a href="http://demo.galathemes.com/gala-giftshop/index.php/electronics/computers/peripherals.html">
+																				<a href="#">
 																					<span>Peripherals</span>
 																				</a>
 																			</li>
@@ -1011,42 +1014,42 @@
 																		<h5>Vestibulum lore</h5>
 																		<ul class="em-catalog-navigation ">
 																		    <li class="level0 nav-1 first">
-																				<a href="http://demo.galathemes.com/gala-giftshop/index.php/electronics/computers/build-your-own.html">
+																				<a href="#">
 																					<span>Build Your Own</span>
 																				</a>
 																			</li>
 																			<li class="level0 nav-2">
-																				<a href="http://demo.galathemes.com/gala-giftshop/index.php/electronics/computers/laptops.html">
+																				<a href="#">
 																					<span>Laptops</span>
 																				</a>
 																			</li>
 																			<li class="level0 nav-3">
-																				<a href="http://demo.galathemes.com/gala-giftshop/index.php/electronics/computers/hard-drives.html">
+																				<a href="#">
 																					<span>Hard Drives</span>
 																				</a>
 																			</li>
 																			<li class="level0 nav-4">
-																				<a href="http://demo.galathemes.com/gala-giftshop/index.php/electronics/computers/monitors.html">
+																				<a href="#">
 																					<span>Monitors</span>
 																				</a>
 																			</li>
 																			<li class="level0 nav-5">
-																				<a href="http://demo.galathemes.com/gala-giftshop/index.php/electronics/computers/ram-memory.html">
+																				<a href="#">
 																					<span>RAM / Memory</span>
 																				</a>
 																			</li>
 																			<li class="level0 nav-6">
-																				<a href="http://demo.galathemes.com/gala-giftshop/index.php/electronics/computers/cases.html">
+																				<a href="#">
 																					<span>Cases</span>
 																				</a>
 																			</li>
 																			<li class="level0 nav-7">
-																				<a href="http://demo.galathemes.com/gala-giftshop/index.php/electronics/computers/processors.html">
+																				<a href="#">
 																					<span>Processors</span>
 																				</a>
 																			</li>
 																			<li class="level0 nav-8 last">
-																				<a href="http://demo.galathemes.com/gala-giftshop/index.php/electronics/computers/peripherals.html">
+																				<a href="#">
 																					<span>Peripherals</span>
 																				</a>
 																			</li>
@@ -1061,12 +1064,12 @@
 																		<p>
 																			<ul class="em-catalog-navigation ">
 				    															<li class="level0 nav-1 first">
-																					<a href="http://demo.galathemes.com/gala-giftshop/index.php/electronics/cameras/accessories.html">
+																					<a href="#">
 																						<span>Adipisicing elitsed doeius</span>
 																					</a>
 																				</li>
 																				<li class="level0 nav-2 last">
-																					<a href="http://demo.galathemes.com/gala-giftshop/index.php/electronics/cameras/digital-cameras.html">
+																					<a href="#">
 																						<span>Digital Cameras</span>
 																					</a>
 																				</li>
@@ -1076,12 +1079,12 @@
 																		<p>
 																			<ul class="em-catalog-navigation ">
 																			    <li class="level0 nav-1 first">
-																					<a href="http://demo.galathemes.com/gala-giftshop/index.php/furniture/living-room.html">
+																					<a href="#">
 																						<span>Living Room</span>
 																					</a>
 																				</li>
 																				<li class="level0 nav-2 last">
-																					<a href="http://demo.galathemes.com/gala-giftshop/index.php/furniture/bedroom.html">
+																					<a href="#">
 																						<span>Bedroom</span>
 																					</a>
 																				</li>
@@ -1096,18 +1099,18 @@
 																	    			<div class="widget-products new-arrival">
 			                            												<ul class="products-grid widget-products-grid-">
 			                    															<li class="item first last" style="  ">
-			                                    												<a href="http://demo.galathemes.com/gala-giftshop/index.php/19-widescreen-flat-panel-lcd-monitor.html" title="19&quot; Widescreen Flat-Panel LCD Monitor" class="product-image">
+			                                    												<a href="#" title="" class="product-image">
 			                                      												<!--show label product - label extension is required-->
 			              																			<span class="productlabels_icons">
 			              																				<span class="label sale"></span>
 			              																			</span>
-			              																			<img src="http://demo.galathemes.com/gala-giftshop/media/catalog/product/cache/13/small_image/238x238/9df78eab33525d08d6e5fb8d27136e95/1/9/19-widescreen-flat-panel-lcd-monitor.jpg" width="238" height="238" alt="19&quot; Widescreen Flat-Panel LCD Monitor" />
+			              																			<img src="themes/images/others/19-widescreen-flat-panel-lcd-monitor.jpg" width="238" height="238" alt="" />
 			              																		</a>             
 																		                        <div class="product-shop">
 																						            <div class="f-fix">
 																						                <!--product name-->
 																						                <h3 class="product-name">
-																						                	<a href="http://demo.galathemes.com/gala-giftshop/index.php/19-widescreen-flat-panel-lcd-monitor.html" title="19&quot; Widescreen Flat-Panel LCD Monitor">19&quot; Widescreen Flat-Panel LCD Monitor</a>
+																						                	<a href="#" title="">19&quot; Widescreen Flat-Panel LCD Monitor</a>
 																						                </h3>                
 																					                	<!--product description-->
 																					                    <p class="desc">2 ms response time; 10,000:1 contrast ratio; 300 cd/m² brightness; 1440 x 900</p>            
@@ -1127,11 +1130,11 @@
 						                																<!--product add to compare-wishlist-->
 																	                                  	<ul class="add-to-links">
 																	                                        <li>
-																	                                          	<a href="http://demo.galathemes.com/gala-giftshop/index.php/wishlist/index/add/product/156/form_key/o9dkpuDvDgoBKPwc/" class="link-wishlist" title="Add to Wishlist">Add to Wishlist</a>
+																	                                          	<a href="#" class="link-wishlist" title="">Add to Wishlist</a>
 																	                                        </li>
 																	                                        <li>
 																	                                          	<span class="separator">|</span>
-																	                                          	<a href="http://demo.galathemes.com/gala-giftshop/index.php/catalog/product_compare/add/product/156/uenc/aHR0cDovL2RlbW8uZ2FsYXRoZW1lcy5jb20vZ2FsYS1naWZ0c2hvcC9pbmRleC5waHA_X19fc3RvcmU9Z3JlZW5fZW5n/" class="link-compare" title="Add to Compare">Add to Compare</a>
+																	                                          	<a href="#" class="link-compare" title="">Add to Compare</a>
 																	                                        </li>
 																	                                    </ul>
 																					              	</div>
@@ -1153,17 +1156,17 @@
 												</ul>
 											</li>
 				                          	<li class="menu-item-link menu-item-depth-0  ">
-				            					<a href="http://demo.galathemes.com/gala-giftshop/electronics.html">
+				            					<a href="#">
 				            						<span>Handmade Gift</span>
 				                          		</a>
 				                          	</li>
 				                          	<li class="menu-item-link menu-item-depth-0  ">
-				            					<a href="http://demo.galathemes.com/gala-giftshop/apparel.html">
+				            					<a href="#">
 				            						<span>Clothes</span>
 				                          		</a>
 				                          	</li>
 				                          	<li class="menu-item-link menu-item-depth-0  menu-item-parent">
-				            					<a href="http://demo.galathemes.com/gala-giftshop/furniture.html">
+				            					<a href="#">
 				            						<span>Tempor ut</span>
 				                          		</a>
 				                              	<ul class="menu-container">
@@ -1175,42 +1178,42 @@
 					            										<h5>Vestibulum lore</h5>
 																		<ul class="em-catalog-navigation ">
 						    												<li class="level0 nav-1 first">
-																				<a href="http://demo.galathemes.com/gala-giftshop/index.php/electronics/computers/build-your-own.html">
+																				<a href="#">
 																					<span>Build Your Own</span>
 																				</a>
 																			</li>
 																			<li class="level0 nav-2">
-																				<a href="http://demo.galathemes.com/gala-giftshop/index.php/electronics/computers/laptops.html">
+																				<a href="#">
 																					<span>Laptops</span>
 																				</a>
 																			</li>
 																			<li class="level0 nav-3">
-																				<a href="http://demo.galathemes.com/gala-giftshop/index.php/electronics/computers/hard-drives.html">
+																				<a href="#">
 																					<span>Hard Drives</span>
 																				</a>
 																			</li>
 																			<li class="level0 nav-4">
-																				<a href="http://demo.galathemes.com/gala-giftshop/index.php/electronics/computers/monitors.html">
+																				<a href="#">
 																					<span>Monitors</span>
 																				</a>
 																			</li>
 																			<li class="level0 nav-5">
-																				<a href="http://demo.galathemes.com/gala-giftshop/index.php/electronics/computers/ram-memory.html">
+																				<a href="#">
 																					<span>RAM / Memory</span>
 																				</a>
 																			</li>
 																			<li class="level0 nav-6">
-																				<a href="http://demo.galathemes.com/gala-giftshop/index.php/electronics/computers/cases.html">
+																				<a href="#">
 																					<span>Cases</span>
 																				</a>
 																			</li>
 																			<li class="level0 nav-7">
-																				<a href="http://demo.galathemes.com/gala-giftshop/index.php/electronics/computers/processors.html">
+																				<a href="#">
 																					<span>Processors</span>
 																				</a>
 																			</li>
 																			<li class="level0 nav-8 last">
-																				<a href="http://demo.galathemes.com/gala-giftshop/index.php/electronics/computers/peripherals.html">
+																				<a href="#">
 																					<span>Peripherals</span>
 																				</a>
 																			</li>
@@ -1218,12 +1221,12 @@
 																		<h5>Pellentesque</h5>
 																		<ul class="em-catalog-navigation ">
 																		    <li class="level0 nav-1 first">
-																				<a href="http://demo.galathemes.com/gala-giftshop/index.php/furniture/living-room.html">
+																				<a href="#">
 																					<span>Living Room</span>
 																				</a>
 																			</li>
 																			<li class="level0 nav-2 last">
-																				<a href="http://demo.galathemes.com/gala-giftshop/index.php/furniture/bedroom.html">
+																				<a href="#">
 																					<span>Bedroom</span>
 																				</a>
 																			</li>
@@ -1238,12 +1241,12 @@
 																		<p>
 																			<ul class="em-catalog-navigation ">
 						    													<li class="level0 nav-1 first">
-																					<a href="http://demo.galathemes.com/gala-giftshop/index.php/electronics/cameras/accessories.html">
+																					<a href="#">
 																						<span>Adipisicing elitsed doeius</span>
 																					</a>
 																				</li>
 																				<li class="level0 nav-2 last">
-																					<a href="http://demo.galathemes.com/gala-giftshop/index.php/electronics/cameras/digital-cameras.html">
+																					<a href="#">
 																						<span>Digital Cameras</span>
 																					</a>
 																				</li>
@@ -1257,7 +1260,9 @@
 																			<span class="price">$199.99</span>
 																		</div>
 																		<div class="menu_product">
-																			<a title="sample banner" class="img_banner" href="#"><img class="fluid" src="http://demo.galathemes.com/gala-giftshop/media/wysiwyg/menu2.jpg" alt="" /></a>
+																			<a title="sample banner" class="img_banner" href="#">
+																				<img class="fluid" src="themes/images/others/menu2.jpg" alt="" />
+																			</a>
 																		</div>                     
 						        									</li>
 																</ul>
@@ -1267,7 +1272,7 @@
 												</ul>
 											</li>
 				                          	<li class="menu-item-link menu-item-depth-0  menu-item-parent">
-				            					<a href="http://demo.galathemes.com/gala-giftshop/apparel.html">
+				            					<a href="#">
 				            						<span>Labore et dolore</span>
 				                          		</a>
 				                              	<ul class="menu-container">    
@@ -1279,42 +1284,42 @@
 				            											<h5>Vestibulum lore</h5>
 																		<ul class="em-catalog-navigation ">
 																		    <li class="level0 nav-1 first">
-																				<a href="http://demo.galathemes.com/gala-giftshop/index.php/electronics/computers/build-your-own.html">
+																				<a href="#">
 																					<span>Build Your Own</span>
 																				</a>
 																			</li>
 																			<li class="level0 nav-2">
-																				<a href="http://demo.galathemes.com/gala-giftshop/index.php/electronics/computers/laptops.html">
+																				<a href="#">
 																					<span>Laptops</span>
 																				</a>
 																			</li>
 																			<li class="level0 nav-3">
-																				<a href="http://demo.galathemes.com/gala-giftshop/index.php/electronics/computers/hard-drives.html">
+																				<a href="#">
 																					<span>Hard Drives</span>
 																				</a>
 																			</li>
 																			<li class="level0 nav-4">
-																					<a href="http://demo.galathemes.com/gala-giftshop/index.php/electronics/computers/monitors.html">
+																					<a href="#">
 																						<span>Monitors</span>
 																					</a>
 																			</li>
 																			<li class="level0 nav-5">
-																				<a href="http://demo.galathemes.com/gala-giftshop/index.php/electronics/computers/ram-memory.html">
+																				<a href="#">
 																					<span>RAM / Memory</span>
 																				</a>
 																			</li>
 																			<li class="level0 nav-6">
-																				<a href="http://demo.galathemes.com/gala-giftshop/index.php/electronics/computers/cases.html">
+																				<a href="#">
 																					<span>Cases</span>
 																				</a>
 																			</li>
 																			<li class="level0 nav-7">
-																				<a href="http://demo.galathemes.com/gala-giftshop/index.php/electronics/computers/processors.html">
+																				<a href="#">
 																					<span>Processors</span>
 																				</a>
 																			</li>
 																			<li class="level0 nav-8 last">
-																				<a href="http://demo.galathemes.com/gala-giftshop/index.php/electronics/computers/peripherals.html">
+																				<a href="#">
 																					<span>Peripherals</span>
 																				</a>
 																			</li>
@@ -1322,12 +1327,12 @@
 																		<h5>Pellentesque</h5>
 																		<ul class="em-catalog-navigation ">
 																		    <li class="level0 nav-1 first">
-																				<a href="http://demo.galathemes.com/gala-giftshop/index.php/furniture/living-room.html">
+																				<a href="#">
 																					<span>Living Room</span>
 																				</a>
 																			</li>
 																			<li class="level0 nav-2 last">
-																				<a href="http://demo.galathemes.com/gala-giftshop/index.php/furniture/bedroom.html">
+																				<a href="#">
 																					<span>Bedroom</span>
 																				</a>
 																			</li>
@@ -1335,29 +1340,29 @@
 																		<h5>Vestibulum lore</h5>
 																		<ul class="em-catalog-navigation ">
 																		    <li class="level0 nav-1 first">
-																				<a href="http://demo.galathemes.com/gala-giftshop/index.php/apparel/shirts.html">
+																				<a href="#">
 																					<span>Shirts</span>
 																				</a>
 																			</li>
 																			<li class="level0 nav-2 parent">
-																				<a href="http://demo.galathemes.com/gala-giftshop/index.php/apparel/shoes.html">
+																				<a href="#">
 																					<span>Shoes</span>
 																				</a>
 																				<ul class="level0">
 																					<li class="level1 nav-2-1 first">
-																						<a href="http://demo.galathemes.com/gala-giftshop/index.php/apparel/shoes/mens.html">
+																						<a href="#">
 																							<span>Mens</span>
 																						</a>
 																					</li>
 																					<li class="level1 nav-2-2 last">
-																						<a href="http://demo.galathemes.com/gala-giftshop/index.php/apparel/shoes/womens.html">
+																						<a href="#">
 																							<span>Womens</span>
 																						</a>
 																					</li>
 																				</ul>
 																			</li>
 																			<li class="level0 nav-3 last">
-																				<a href="http://demo.galathemes.com/gala-giftshop/index.php/apparel/hoodies.html">
+																				<a href="#">
 																					<span>Hoodies</span>
 																				</a>
 																			</li>
@@ -1365,12 +1370,12 @@
 																		<h5>Suspendisse risus</h5>
 																		<ul class="em-catalog-navigation ">
 																		    <li class="level0 nav-1 first">
-																				<a href="http://demo.galathemes.com/gala-giftshop/index.php/electronics/cameras/accessories.html">
+																				<a href="#">
 																					<span>Adipisicing elitsed doeius</span>
 																				</a>
 																			</li>
 																			<li class="level0 nav-2 last">
-																				<a href="http://demo.galathemes.com/gala-giftshop/index.php/electronics/cameras/digital-cameras.html">
+																				<a href="#">
 																					<span>Digital Cameras</span>
 																				</a>
 																			</li>
@@ -1391,18 +1396,18 @@
 					      															<div class="widget-products new-arrival">
 					                            										<ul class="products-grid widget-products-grid-">
 					                    													<li class="item first last" style="  ">
-					                                    										<a href="http://demo.galathemes.com/gala-giftshop/index.php/19-widescreen-flat-panel-lcd-monitor.html" title="19&quot; Widescreen Flat-Panel LCD Monitor" class="product-image">
+					                                    										<a href="#" title="" class="product-image">
 					                                      											<!--show label product - label extension is required-->
 					              																	<span class="productlabels_icons">
 					              																		<span class="label sale"></span>
 					              																	</span>
-					              																	<img src="http://demo.galathemes.com/gala-giftshop/media/catalog/product/cache/13/small_image/238x238/9df78eab33525d08d6e5fb8d27136e95/1/9/19-widescreen-flat-panel-lcd-monitor.jpg" width="238" height="238" alt="19&quot; Widescreen Flat-Panel LCD Monitor" />
+					              																	<img src="themes/images/others/19-widescreen-flat-panel-lcd-monitor.jpg" width="238" height="238" alt="" />
 					              																</a>             
 					                        													<div class="product-shop">
 																					              	<div class="f-fix">
 																					                	<!--product name-->
 																					                 	<h3 class="product-name">
-																					                 		<a href="http://demo.galathemes.com/gala-giftshop/index.php/19-widescreen-flat-panel-lcd-monitor.html" title="19&quot; Widescreen Flat-Panel LCD Monitor">19&quot; Widescreen Flat-Panel LCD Monitor</a>
+																					                 		<a href="#" title="">19&quot; Widescreen Flat-Panel LCD Monitor</a>
 																					                 	</h3>         
 																					                	<!--product description-->
 																					                    <p class="desc">2 ms response time; 10,000:1 contrast ratio; 300 cd/m² brightness; 1440 x 900</p>               
@@ -1422,11 +1427,11 @@
 					                																	<!--product add to compare-wishlist-->
 																	                                  	<ul class="add-to-links">
 																	                                        <li>
-																	                                        	<a href="http://demo.galathemes.com/gala-giftshop/index.php/wishlist/index/add/product/156/form_key/o9dkpuDvDgoBKPwc/" class="link-wishlist" title="Add to Wishlist">Add to Wishlist</a>
+																	                                        	<a href="#" class="link-wishlist" title="">Add to Wishlist</a>
 																	                                        </li>
 																	                                        <li>
 																	                                        	<span class="separator">|</span>
-																	                                        	<a href="http://demo.galathemes.com/gala-giftshop/index.php/catalog/product_compare/add/product/156/uenc/aHR0cDovL2RlbW8uZ2FsYXRoZW1lcy5jb20vZ2FsYS1naWZ0c2hvcC9pbmRleC5waHA_X19fc3RvcmU9Z3JlZW5fZW5n/" class="link-compare" title="Add to Compare">Add to Compare</a>
+																	                                        	<a href="#" class="link-compare" title="">Add to Compare</a>
 																	                                        </li>
 																	                                	</ul>
 				          																			</div>
@@ -1448,7 +1453,7 @@
 												</ul>
 											</li>
 				                          	<li class="menu-item-link menu-item-depth-0  menu-item-parent">
-				            					<a href="http://demo.galathemes.com/gala-giftshop/apparel.html">
+				            					<a href="#">
 				            						<span>Accessories</span>
 				                          		</a>
 				                              	<ul class="menu-container">
@@ -1458,12 +1463,12 @@
 				            									<h5>Suspendisse risus</h5>
 																<ul class="em-catalog-navigation ">
 				    												<li class="level0 nav-1 first">
-																		<a href="http://demo.galathemes.com/gala-giftshop/index.php/electronics/cameras/accessories.html">
+																		<a href="#">
 																			<span>Adipisicing elitsed doeius</span>
 																		</a>
 																	</li>
 																	<li class="level0 nav-2 last">
-																		<a href="http://demo.galathemes.com/gala-giftshop/index.php/electronics/cameras/digital-cameras.html">
+																		<a href="#">
 																			<span>Digital Cameras</span>
 																		</a>
 																	</li>
@@ -1471,12 +1476,12 @@
 																<h5>Pellentesque</h5>
 																<ul class="em-catalog-navigation ">
 																    <li class="level0 nav-1 first">
-																		<a href="http://demo.galathemes.com/gala-giftshop/index.php/furniture/living-room.html">
+																		<a href="#">
 																			<span>Living Room</span>
 																		</a>
 																	</li>
 																	<li class="level0 nav-2 last">
-																		<a href="http://demo.galathemes.com/gala-giftshop/index.php/furniture/bedroom.html">
+																		<a href="#">
 																			<span>Bedroom</span>
 																		</a>
 																	</li>
@@ -1484,42 +1489,42 @@
 																<h5>Vestibulum lore</h5>
 																<ul class="em-catalog-navigation ">
 																    <li class="level0 nav-1 first">
-																		<a href="http://demo.galathemes.com/gala-giftshop/index.php/electronics/computers/build-your-own.html">
+																		<a href="#">
 																			<span>Build Your Own</span>
 																		</a>
 																	</li>
 																	<li class="level0 nav-2">
-																		<a href="http://demo.galathemes.com/gala-giftshop/index.php/electronics/computers/laptops.html">
+																		<a href="#">
 																			<span>Laptops</span>
 																		</a>
 																	</li>
 																	<li class="level0 nav-3">
-																		<a href="http://demo.galathemes.com/gala-giftshop/index.php/electronics/computers/hard-drives.html">
+																		<a href="#">
 																			<span>Hard Drives</span>
 																		</a>
 																	</li>
 																	<li class="level0 nav-4">
-																		<a href="http://demo.galathemes.com/gala-giftshop/index.php/electronics/computers/monitors.html">
+																		<a href="#">
 																			<span>Monitors</span>
 																		</a>
 																	</li>
 																	<li class="level0 nav-5">
-																		<a href="http://demo.galathemes.com/gala-giftshop/index.php/electronics/computers/ram-memory.html">
+																		<a href="#">
 																		<span>RAM / Memory</span>
 																		</a>
 																	</li>
 																	<li class="level0 nav-6">
-																		<a href="http://demo.galathemes.com/gala-giftshop/index.php/electronics/computers/cases.html">
+																		<a href="#">
 																			<span>Cases</span>
 																		</a>
 																	</li>
 																	<li class="level0 nav-7">
-																		<a href="http://demo.galathemes.com/gala-giftshop/index.php/electronics/computers/processors.html">
+																		<a href="#">
 																			<span>Processors</span>
 																		</a>
 																	</li>
 																	<li class="level0 nav-8 last">
-																		<a href="http://demo.galathemes.com/gala-giftshop/index.php/electronics/computers/peripherals.html">
+																		<a href="#">
 																			<span>Peripherals</span>
 																		</a>
 																	</li>
@@ -1530,7 +1535,7 @@
 												</ul>
 											</li>
 				                          	<li class="menu-item-link menu-item-depth-0  menu-item-parent">
-									            <a href="http://demo.galathemes.com/gala-giftshop/electronics.html" >
+									            <a href="#" >
 									            	<span>What's new</span>
 									            </a>
 				                              	<ul class="menu-container">
@@ -1542,42 +1547,42 @@
 														            	<h5>Vestibulum lore</h5>
 																		<ul class="em-catalog-navigation ">
 													    					<li class="level0 nav-1 first">
-																				<a href="http://demo.galathemes.com/gala-giftshop/index.php/electronics/computers/build-your-own.html">
+																				<a href="#">
 																					<span>Build Your Own</span>
 																				</a>
 																			</li>
 																			<li class="level0 nav-2">
-																				<a href="http://demo.galathemes.com/gala-giftshop/index.php/electronics/computers/laptops.html">
+																				<a href="#">
 																					<span>Laptops</span>
 																				</a>
 																			</li>
 																			<li class="level0 nav-3">
-																				<a href="http://demo.galathemes.com/gala-giftshop/index.php/electronics/computers/hard-drives.html">
+																				<a href="#">
 																					<span>Hard Drives</span>
 																				</a>
 																			</li>
 																			<li class="level0 nav-4">
-																				<a href="http://demo.galathemes.com/gala-giftshop/index.php/electronics/computers/monitors.html">
+																				<a href="#">
 																					<span>Monitors</span>
 																				</a>
 																			</li>
 																			<li class="level0 nav-5">
-																				<a href="http://demo.galathemes.com/gala-giftshop/index.php/electronics/computers/ram-memory.html">
+																				<a href="#">
 																					<span>RAM / Memory</span>
 																				</a>
 																			</li>
 																			<li class="level0 nav-6">
-																				<a href="http://demo.galathemes.com/gala-giftshop/index.php/electronics/computers/cases.html">
+																				<a href="#">
 																					<span>Cases</span>
 																				</a>
 																			</li>
 																			<li class="level0 nav-7">
-																				<a href="http://demo.galathemes.com/gala-giftshop/index.php/electronics/computers/processors.html">
+																				<a href="#">
 																					<span>Processors</span>
 																				</a>
 																			</li>
 																			<li class="level0 nav-8 last">
-																				<a href="http://demo.galathemes.com/gala-giftshop/index.php/electronics/computers/peripherals.html">
+																				<a href="#">
 																					<span>Peripherals</span>
 																				</a>
 																			</li>
@@ -1585,12 +1590,12 @@
 																		<h5>Pellentesque</h5>
 																		<ul class="em-catalog-navigation ">
 																		    <li class="level0 nav-1 first">
-																				<a href="http://demo.galathemes.com/gala-giftshop/index.php/furniture/living-room.html">
+																				<a href="#">
 																					<span>Living Room</span>
 																				</a>
 																			</li>
 																			<li class="level0 nav-2 last">
-																				<a href="http://demo.galathemes.com/gala-giftshop/index.php/furniture/bedroom.html">
+																				<a href="#">
 																					<span>Bedroom</span>
 																				</a>
 																			</li>
@@ -1604,35 +1609,35 @@
 																        <h5>Vestibulum lore</h5>
 																		<ul class="em-catalog-navigation ">
 																    		<li class="level0 nav-1 first">
-																				<a href="http://demo.galathemes.com/gala-giftshop/index.php/electronics/computers/build-your-own.html">
+																				<a href="#">
 																					<span>Build Your Own</span>
 																				</a>
 																			</li><li class="level0 nav-2">
-																				<a href="http://demo.galathemes.com/gala-giftshop/index.php/electronics/computers/laptops.html">
+																				<a href="#">
 																					<span>Laptops</span>
 																				</a>
 																			</li><li class="level0 nav-3">
-																				<a href="http://demo.galathemes.com/gala-giftshop/index.php/electronics/computers/hard-drives.html">
+																				<a href="#">
 																					<span>Hard Drives</span>
 																				</a>
 																			</li><li class="level0 nav-4">
-																				<a href="http://demo.galathemes.com/gala-giftshop/index.php/electronics/computers/monitors.html">
+																				<a href="#">
 																					<span>Monitors</span>
 																				</a>
 																			</li><li class="level0 nav-5">
-																				<a href="http://demo.galathemes.com/gala-giftshop/index.php/electronics/computers/ram-memory.html">
+																				<a href="#">
 																					<span>RAM / Memory</span>
 																				</a>
 																			</li><li class="level0 nav-6">
-																				<a href="http://demo.galathemes.com/gala-giftshop/index.php/electronics/computers/cases.html">
+																				<a href="#">
 																					<span>Cases</span>
 																				</a>
 																			</li><li class="level0 nav-7">
-																				<a href="http://demo.galathemes.com/gala-giftshop/index.php/electronics/computers/processors.html">
+																				<a href="#">
 																					<span>Processors</span>
 																				</a>
 																			</li><li class="level0 nav-8 last">
-																				<a href="http://demo.galathemes.com/gala-giftshop/index.php/electronics/computers/peripherals.html">
+																				<a href="#">
 																					<span>Peripherals</span>
 																				</a>
 																			</li>
@@ -1640,12 +1645,12 @@
 																		<h5>Pellentesque</h5>
 																		<ul class="em-catalog-navigation ">
 																		    <li class="level0 nav-1 first">
-																				<a href="http://demo.galathemes.com/gala-giftshop/index.php/furniture/living-room.html">
+																				<a href="#">
 																					<span>Living Room</span>
 																				</a>
 																			</li>
 																			<li class="level0 nav-2 last">
-																				<a href="http://demo.galathemes.com/gala-giftshop/index.php/furniture/bedroom.html">
+																				<a href="#">
 																					<span>Bedroom</span>
 																				</a>
 																			</li>
@@ -1660,7 +1665,7 @@
 								                          	<li class="menu-item-text menu-item-depth-2  ">
 								            					<p>
 								            						<a class="img_banner" href="#">
-								            							<img class="fluid" src="http://demo.galathemes.com/gala-giftshop/media/wysiwyg/menu3.jpg" alt="" />
+								            							<img class="fluid" src="themes/images/others/menu3.jpg" alt="" />
 								            						</a>
 								            					</p>
 																<h3>ITAQUE EARUM LABORE</h3>
@@ -1670,18 +1675,18 @@
 											      							<div class="widget-products">
 				                            									<ul class="products-list">
 				                      												<li class="item first last" style="  ">
-				                                          								<a href="http://demo.galathemes.com/gala-giftshop/index.php/19-widescreen-flat-panel-lcd-monitor.html" title="19&quot; Widescreen Flat-Panel LCD Monitor" class="product-image">
+				                                          								<a href="#" title="" class="product-image">
 				                                              								<!--show label product - label extension is required-->
 				                  															<span class="productlabels_icons">
 				                  																<span class="label sale"></span>
 				                  															</span>
-				                  															<img src="http://demo.galathemes.com/gala-giftshop/media/catalog/product/cache/13/small_image/120x120/9df78eab33525d08d6e5fb8d27136e95/1/9/19-widescreen-flat-panel-lcd-monitor.jpg" width="120" height="120" alt="19&quot; Widescreen Flat-Panel LCD Monitor" />
+				                  															<img src="themes/images/others/19-widescreen-flat-panel-lcd-monitor.jpg" width="120" height="120" alt="" />
 				                  														</a>             
 				              															<div class="product-shop" style="margin-left:130px">
 																		                	<div class="f-fix">
 																		                  		<!--product name-->
 																		                    	<h3 class="product-name">
-																		                    		<a href="http://demo.galathemes.com/gala-giftshop/index.php/19-widescreen-flat-panel-lcd-monitor.html" title="19&quot; Widescreen Flat-Panel LCD Monitor">19&quot; Widescreen Flat-Panel LCD Monitor</a>
+																		                    		<a href="#" title="">19&quot; Widescreen Flat-Panel LCD Monitor</a>
 																		                    	</h3>      
 																	                  			<!--product description-->
 																	                            <p class="desc">2 ms response time; 10,000:1 contrast ratio; 300 cd/m² brightness; 1440 x 900</p>	                                  
@@ -1701,11 +1706,11 @@
 				                  																<!--product add to compare-wishlist-->
 														                                      	<ul class="add-to-links">
 														                                            <li>
-														                                            	<a href="http://demo.galathemes.com/gala-giftshop/index.php/wishlist/index/add/product/156/form_key/o9dkpuDvDgoBKPwc/" class="link-wishlist" title="Add to Wishlist">Add to Wishlist</a>
+														                                            	<a href="" class="link-wishlist" title="">Add to Wishlist</a>
 														                                            </li>
 														                                            <li>
 														                                            	<span class="separator">|</span>
-														                                            	<a href="http://demo.galathemes.com/gala-giftshop/index.php/catalog/product_compare/add/product/156/uenc/aHR0cDovL2RlbW8uZ2FsYXRoZW1lcy5jb20vZ2FsYS1naWZ0c2hvcC9pbmRleC5waHA_X19fc3RvcmU9Z3JlZW5fZW5n/" class="link-compare" title="Add to Compare">Add to Compare</a>
+														                                            	<a href="" class="link-compare" title="">Add to Compare</a>
 														                                            </li>
 														                                        </ul>
 																			                </div>
@@ -1722,7 +1727,7 @@
 												</ul>
 											</li>
 				                          	<li class="menu-item-link menu-item-depth-0  menu-item-parent">
-				            					<a href="http://demo.galathemes.com/gala-giftshop/apparel.html">
+				            					<a href="#">
 				            						<span>Trend</span>
 				                          		</a>
 			                              		<ul class="menu-container">
@@ -1734,35 +1739,35 @@
 											            				<h5>Vestibulum lore</h5>
 																		<ul class="em-catalog-navigation ">
 											    							<li class="level0 nav-1 first">
-																				<a href="http://demo.galathemes.com/gala-giftshop/index.php/electronics/computers/build-your-own.html">
+																				<a href="#">
 																					<span>Build Your Own</span>
 																				</a>
 																			</li><li class="level0 nav-2">
-																				<a href="http://demo.galathemes.com/gala-giftshop/index.php/electronics/computers/laptops.html">
+																				<a href="#">
 																					<span>Laptops</span>
 																				</a>
 																			</li><li class="level0 nav-3">
-																				<a href="http://demo.galathemes.com/gala-giftshop/index.php/electronics/computers/hard-drives.html">
+																				<a href="#">
 																					<span>Hard Drives</span>
 																				</a>
 																			</li><li class="level0 nav-4">
-																				<a href="http://demo.galathemes.com/gala-giftshop/index.php/electronics/computers/monitors.html">
+																				<a href="#">
 																					<span>Monitors</span>
 																				</a>
 																			</li><li class="level0 nav-5">
-																				<a href="http://demo.galathemes.com/gala-giftshop/index.php/electronics/computers/ram-memory.html">
+																				<a href="#">
 																					<span>RAM / Memory</span>
 																				</a>
 																			</li><li class="level0 nav-6">
-																				<a href="http://demo.galathemes.com/gala-giftshop/index.php/electronics/computers/cases.html">
+																				<a href="#">
 																					<span>Cases</span>
 																				</a>
 																			</li><li class="level0 nav-7">
-																				<a href="http://demo.galathemes.com/gala-giftshop/index.php/electronics/computers/processors.html">
+																				<a href="#">
 																					<span>Processors</span>
 																				</a>
 																			</li><li class="level0 nav-8 last">
-																				<a href="http://demo.galathemes.com/gala-giftshop/index.php/electronics/computers/peripherals.html">
+																				<a href="#">
 																					<span>Peripherals</span>
 																				</a>
 																			</li>
@@ -1770,11 +1775,11 @@
 																		<h5>Pellentesque</h5>
 																		<ul class="em-catalog-navigation ">
 																		    <li class="level0 nav-1 first">
-																				<a href="http://demo.galathemes.com/gala-giftshop/index.php/furniture/living-room.html">
+																				<a href="#">
 																				<span>Living Room</span>
 																				</a>
 																			</li><li class="level0 nav-2 last">
-																				<a href="http://demo.galathemes.com/gala-giftshop/index.php/furniture/bedroom.html">
+																				<a href="#">
 																				<span>Bedroom</span>
 																				</a>
 																			</li>
@@ -1782,35 +1787,35 @@
 																		<h5>Vestibulum lore</h5>
 																		<ul class="em-catalog-navigation ">
 																		    <li class="level0 nav-1 first">
-																				<a href="http://demo.galathemes.com/gala-giftshop/index.php/electronics/computers/build-your-own.html">
+																				<a href="#">
 																					<span>Build Your Own</span>
 																				</a>
 																			</li><li class="level0 nav-2">
-																				<a href="http://demo.galathemes.com/gala-giftshop/index.php/electronics/computers/laptops.html">
+																				<a href="#">
 																					<span>Laptops</span>
 																				</a>
 																			</li><li class="level0 nav-3">
-																				<a href="http://demo.galathemes.com/gala-giftshop/index.php/electronics/computers/hard-drives.html">
+																				<a href="#">
 																					<span>Hard Drives</span>
 																				</a>
 																			</li><li class="level0 nav-4">
-																				<a href="http://demo.galathemes.com/gala-giftshop/index.php/electronics/computers/monitors.html">
+																				<a href="#">
 																					<span>Monitors</span>
 																				</a>
 																			</li><li class="level0 nav-5">
-																				<a href="http://demo.galathemes.com/gala-giftshop/index.php/electronics/computers/ram-memory.html">
+																				<a href="#">
 																					<span>RAM / Memory</span>
 																				</a>
 																			</li><li class="level0 nav-6">
-																				<a href="http://demo.galathemes.com/gala-giftshop/index.php/electronics/computers/cases.html">
+																				<a href="#">
 																					<span>Cases</span>
 																				</a>
 																			</li><li class="level0 nav-7">
-																				<a href="http://demo.galathemes.com/gala-giftshop/index.php/electronics/computers/processors.html">
+																				<a href="#">
 																					<span>Processors</span>
 																				</a>
 																			</li><li class="level0 nav-8 last">
-																				<a href="http://demo.galathemes.com/gala-giftshop/index.php/electronics/computers/peripherals.html">
+																				<a href="#">
 																					<span>Peripherals</span>
 																				</a>
 																			</li>
@@ -1821,12 +1826,12 @@
 			                          						<li class="menu-item-vbox menu-item-depth-2 grid_4 omega menu-item-parent" style="">
 									                            <ul class="menu-container">
 									                          		<li class="menu-item-text menu-item-depth-3  ">
-															            <a href="#" title="" class="img_banner"><img class="fluid" src="http://demo.galathemes.com/gala-giftshop/media/wysiwyg/i_logo.png" alt="" /></a>
-																		<a href="#" title="" class="img_banner"><img class="fluid" src="http://demo.galathemes.com/gala-giftshop/media/wysiwyg/i_logo.png" alt="" /></a>
-																		<a href="#" title="" class="img_banner"><img class="fluid" src="http://demo.galathemes.com/gala-giftshop/media/wysiwyg/i_logo.png" alt="" /></a>
-																		<a href="#" title="" class="img_banner"><img class="fluid" src="http://demo.galathemes.com/gala-giftshop/media/wysiwyg/i_logo.png" alt="" /></a>
-																		<a href="#" title="" class="img_banner"><img class="fluid" src="http://demo.galathemes.com/gala-giftshop/media/wysiwyg/i_logo.png" alt="" /></a>
-																		<a href="#" title="" class="img_banner"><img class="fluid" src="http://demo.galathemes.com/gala-giftshop/media/wysiwyg/i_logo.png" alt="" /></a>                
+															            <a href="#" title="" class="img_banner"><img class="fluid" src="themes/images/i_logo.png" alt="" /></a>
+																		<a href="#" title="" class="img_banner"><img class="fluid" src="themes/images/i_logo.png" alt="" /></a>
+																		<a href="#" title="" class="img_banner"><img class="fluid" src="themes/images/i_logo.png" alt="" /></a>
+																		<a href="#" title="" class="img_banner"><img class="fluid" src="themes/images/i_logo.png" alt="" /></a>
+																		<a href="#" title="" class="img_banner"><img class="fluid" src="themes/images/i_logo.png" alt="" /></a>
+																		<a href="#" title="" class="img_banner"><img class="fluid" src="themes/images/i_logo.png" alt="" /></a>                
 									       							</li>
 																</ul>
 															</li>
@@ -1835,98 +1840,98 @@
 												</ul>
 											</li>  
 				                          	<li class="menu-item-link menu-item-depth-0 last menu-item-parent">
-				            					<a href="http://demo.galathemes.com/gala-giftshop/electronics.html">
+				            					<a href="#">
 				            						<span>Mother &amp; baby</span>
 			                          			</a>
 				                              	<ul class="menu-container">
 				                          			<li class="menu-item-text menu-item-depth-2  ">
 											            <ul class="em-catalog-navigation ">
 														    <li class="level0 nav-1 first parent">
-																<a href="http://demo.galathemes.com/gala-giftshop/index.php/furniture.html">
+																<a href="#">
 																	<span>Furniture</span>
 																</a>
 																<ul class="level0">
 																	<li class="level1 nav-1-1 first">
-																		<a href="http://demo.galathemes.com/gala-giftshop/index.php/furniture/living-room.html">
+																		<a href="#">
 																			<span>Living Room</span>
 																		</a>
 																	</li>
 																	<li class="level1 nav-1-2 last">
-																		<a href="http://demo.galathemes.com/gala-giftshop/index.php/furniture/bedroom.html">
+																		<a href="#">
 																			<span>Bedroom</span>
 																		</a>
 																	</li>
 																</ul>
 															</li>
 															<li class="level0 nav-2 parent">
-																<a href="http://demo.galathemes.com/gala-giftshop/index.php/electronics.html">
+																<a href="#">
 																	<span>Electronics</span>
 																</a>
 																<ul class="level0">
 																	<li class="level1 nav-2-1 first">
-																		<a href="http://demo.galathemes.com/gala-giftshop/index.php/electronics/cell-phones.html">
+																		<a href="#">
 																		<span>Cell Phones</span>
 																		</a>
 																	</li>
 																	<li class="level1 nav-2-2 parent">
-																		<a href="http://demo.galathemes.com/gala-giftshop/index.php/electronics/cameras.html">
+																		<a href="#">
 																			<span>Cameras</span>
 																		</a>
 																		<ul class="level1">
 																			<li class="level2 nav-2-2-1 first">
-																				<a href="http://demo.galathemes.com/gala-giftshop/index.php/electronics/cameras/accessories.html">
+																				<a href="#">
 																					<span>Adipisicing elitsed doeius</span>
 																				</a>
 																			</li>
 																			<li class="level2 nav-2-2-2 last">
-																				<a href="http://demo.galathemes.com/gala-giftshop/index.php/electronics/cameras/digital-cameras.html">
+																				<a href="#">
 																					<span>Digital Cameras</span>
 																				</a>
 																			</li>
 																		</ul>
 																	</li>
 																	<li class="level1 nav-2-3 last parent">
-																		<a href="http://demo.galathemes.com/gala-giftshop/index.php/electronics/computers.html">
+																		<a href="#">
 																			<span>Computers</span>
 																		</a>
 																		<ul class="level1">
 																			<li class="level2 nav-2-3-3 first">
-																				<a href="http://demo.galathemes.com/gala-giftshop/index.php/electronics/computers/build-your-own.html">
+																				<a href="#">
 																					<span>Build Your Own</span>
 																				</a>
 																			</li>
 																			<li class="level2 nav-2-3-4">
-																				<a href="http://demo.galathemes.com/gala-giftshop/index.php/electronics/computers/laptops.html">
+																				<a href="#">
 																					<span>Laptops</span>
 																				</a>
 																			</li>
 																			<li class="level2 nav-2-3-5">
-																				<a href="http://demo.galathemes.com/gala-giftshop/index.php/electronics/computers/hard-drives.html">
+																				<a href="#">
 																					<span>Hard Drives</span>
 																				</a>
 																			</li>
 																			<li class="level2 nav-2-3-6">
-																				<a href="http://demo.galathemes.com/gala-giftshop/index.php/electronics/computers/monitors.html">
+																				<a href="#">
 																					<span>Monitors</span>
 																				</a>
 																			</li>
 																			<li class="level2 nav-2-3-7">
-																				<a href="http://demo.galathemes.com/gala-giftshop/index.php/electronics/computers/ram-memory.html">
+																				<a href="#">
 																					<span>RAM / Memory</span>
 																				</a>
 																			</li>
 																			<li class="level2 nav-2-3-8">
-																				<a href="http://demo.galathemes.com/gala-giftshop/index.php/electronics/computers/cases.html">
+																				<a href="#">
 																					<span>Cases</span>
 																				</a>
 																			</li>
 																			<li class="level2 nav-2-3-9">
-																				<a href="http://demo.galathemes.com/gala-giftshop/index.php/electronics/computers/processors.html">
+																				<a href="#">
 																					<span>Processors</span>
 																				</a>
 																			</li>
 																			<li class="level2 nav-2-3-10 last">
-																				<a href="http://demo.galathemes.com/gala-giftshop/index.php/electronics/computers/peripherals.html">
+																				<a href="#">
 																					<span>Peripherals</span>
 																				</a>
 																			</li>
@@ -1935,34 +1940,34 @@
 																</ul>
 															</li>
 															<li class="level0 nav-3 last parent">
-																<a href="http://demo.galathemes.com/gala-giftshop/index.php/apparel.html">
+																<a href="#">
 																	<span>Apparel</span>
 																</a>
 																<ul class="level0">
 																	<li class="level1 nav-3-1 first">
-																		<a href="http://demo.galathemes.com/gala-giftshop/index.php/apparel/shirts.html">
+																		<a href="#">
 																			<span>Shirts</span>
 																		</a>
 																	</li>
 																	<li class="level1 nav-3-2 parent">
-																		<a href="http://demo.galathemes.com/gala-giftshop/index.php/apparel/shoes.html">
+																		<a href="#">
 																			<span>Shoes</span>
 																		</a>
 																		<ul class="level1">
 																			<li class="level2 nav-3-2-1 first">
-																				<a href="http://demo.galathemes.com/gala-giftshop/index.php/apparel/shoes/mens.html">
+																				<a href="#">
 																					<span>Mens</span>
 																				</a>
 																			</li>
 																			<li class="level2 nav-3-2-2 last">
-																				<a href="http://demo.galathemes.com/gala-giftshop/index.php/apparel/shoes/womens.html">
+																				<a href="#">
 																					<span>Womens</span>
 																				</a>
 																			</li>
 																		</ul>
 																	</li>
 																	<li class="level1 nav-3-3 last">
-																		<a href="http://demo.galathemes.com/gala-giftshop/index.php/apparel/hoodies.html">
+																		<a href="#">
 																			<span>Hoodies</span>
 																		</a>
 																	</li>
@@ -2020,14 +2025,14 @@
 										    <div class="widget-products">
 									            <ul class="products-list">
 									                <li class="item first" style="  ">
-									                    <a href="http://demo.galathemes.com/gala-giftshop/index.php/ottoman.html" title="Ottoman" class="product-image">
-									                        <img src="http://demo.galathemes.com/gala-giftshop/media/catalog/product/cache/13/small_image/87x87/9df78eab33525d08d6e5fb8d27136e95/0/3/03.jpg" width="87" height="87" alt="Ottoman" />
+									                    <a href="#" title="" class="product-image">
+									                        <img src="themes/images/others/03.jpg" width="87" height="87" alt="" />
 									                    </a> 
 									           			<div class="product-shop" style="margin-left:97px">
 											              	<div class="f-fix">
 											                	<!--product name-->
 											                    <h3 class="product-name">
-											                    	<a href="http://demo.galathemes.com/gala-giftshop/index.php/ottoman.html" title="Ottoman">Ottoman</a>
+											                    	<a href="#" title="">Ottoman</a>
 											                    </h3>  
 												                <!--product description-->
 												                <!--product reviews-->                          
@@ -2043,14 +2048,14 @@
 									            		</div>
 									          		</li>
 									                <li class="item"  style="  ">
-									                    <a href="http://demo.galathemes.com/gala-giftshop/index.php/chair.html" title="Chair" class="product-image">
-									                        <img src="http://demo.galathemes.com/gala-giftshop/media/catalog/product/cache/13/small_image/87x87/9df78eab33525d08d6e5fb8d27136e95/c/h/chair.jpg" width="87" height="87" alt="Chair" />
+									                    <a href="#" title="" class="product-image">
+									                        <img src="themes/images/others/chair.jpg" width="87" height="87" alt="" />
 									                    </a>      
 									            		<div class="product-shop" style="margin-left:97px">
 											              	<div class="f-fix">
 											                	<!--product name-->
 											                    <h3 class="product-name">
-											                    	<a href="http://demo.galathemes.com/gala-giftshop/index.php/chair.html" title="Chair">Chair</a>
+											                    	<a href="#" title="">Chair</a>
 											                    </h3>    
 												                <!--product description-->       
 												                <!--product reviews-->                           
@@ -2071,14 +2076,14 @@
 									            		</div>
 									          		</li>
 									                <li class="item" style="  ">
-									                    <a href="http://demo.galathemes.com/gala-giftshop/index.php/couch.html" title="Couch" class="product-image">
-									                        <img src="http://demo.galathemes.com/gala-giftshop/media/catalog/product/cache/13/small_image/87x87/9df78eab33525d08d6e5fb8d27136e95/c/o/couch.jpg" width="87" height="87" alt="Couch" />
+									                    <a href="#" title="" class="product-image">
+									                        <img src="themes/images/others/couch.jpg" width="87" height="87" alt="" />
 									                    </a>             
 									            		<div class="product-shop" style="margin-left:97px">
 											              	<div class="f-fix">
 											                	<!--product name-->
 											                    <h3 class="product-name">
-											                    	<a href="http://demo.galathemes.com/gala-giftshop/index.php/couch.html" title="Couch">Couch</a>
+											                    	<a href="#" title="">Couch</a>
 											                    </h3>
 											                	<!--product description-->
 											                	<!--product reviews-->                        
@@ -2094,14 +2099,14 @@
 									            		</div>
 									          		</li>
 									          		<li class="item last" style="  ">
-									                    <a href="http://demo.galathemes.com/gala-giftshop/index.php/barcelona-bamboo-platform-bed.html" title="Barcelona Bamboo Platform Bed" class="product-image">
-									                        <img src="http://demo.galathemes.com/gala-giftshop/media/catalog/product/cache/13/small_image/87x87/9df78eab33525d08d6e5fb8d27136e95/b/a/barcelona-bamboo-platform-bed.jpg" width="87" height="87" alt="Barcelona Bamboo Platform Bed" />
+									                    <a href="#" title="" class="product-image">
+									                        <img src="themes/images/others/barcelona-bamboo-platform-bed.jpg" width="87" height="87" alt="" />
 									                    </a> 
 									            		<div class="product-shop" style="margin-left:97px">
 									              			<div class="f-fix">
 												                <!--product name-->
 												                <h3 class="product-name">
-												                	<a href="http://demo.galathemes.com/gala-giftshop/index.php/barcelona-bamboo-platform-bed.html" title="Barcelona Bamboo Platform Bed">Barcelona Bamboo Platform Bed</a>
+												                	<a href="#" title="">Barcelona Bamboo Platform Bed</a>
 												                </h3>        
 												                <!--product description--> 
 												                <!--product reviews-->                             
@@ -2124,7 +2129,7 @@
 							</div>
 							<p class="block">
 								<a title="" href="#">
-									<img class="fluid" src="http://demo.galathemes.com/gala-giftshop/media/wysiwyg/sidebar_banner.jpg" alt="" />
+									<img class="fluid" src="themes/images/others/sidebar_banner.jpg" alt="" />
 								</a>
 							</p>
 							<div class="block block-sample">
@@ -2162,7 +2167,7 @@
 							    <div class="block-title">
 							        <strong><span>Newsletter</span></strong>
 							    </div>
-							    <form action="http://demo.galathemes.com/gala-giftshop/index.php/newsletter/subscriber/new/" method="post" id="newsletter-validate-detail">
+							    <form action="" method="post" id="newsletter-validate-detail">
 							        <div class="block-content">
 							            <div class="form-subscribe-header">
 							                <label for="newsletter">Newsletter</label>
@@ -2203,19 +2208,51 @@
 	    			<div class="em-footer-link container_24">     
 	      				<div class="footer grid_24">
 			                <ul class="links">
-			                        <li class="first" ><a href="http://demo.galathemes.com/gala-giftshop/index.php/catalog/seo_sitemap/category/" title="Site Map" >Site Map</a></li>
-	                                <li ><a href="http://demo.galathemes.com/gala-giftshop/index.php/catalogsearch/term/popular/" title="Search Terms" >Search Terms</a></li>
-	                                <li ><a href="http://demo.galathemes.com/gala-giftshop/index.php/catalogsearch/advanced/" title="Advanced Search" >Advanced Search</a></li>
-	                                <li ><a href="http://demo.galathemes.com/gala-giftshop/index.php/sales/guest/form/" title="Orders and Returns" >Orders and Returns</a></li>
-	                                <li class=" last" ><a href="http://demo.galathemes.com/gala-giftshop/index.php/contacts/" title="Contact Us" >Contact Us</a></li>
+		                        <li class="first" >
+		                        	<a href="#" title="" >Site Map</a>
+		                        </li>
+                                <li >
+                                	<a href="#" title="" >Search Terms</a>
+                                </li>
+                                <li >
+                                	<a href="#" title="" >Advanced Search</a>
+                                </li>
+                                <li >
+                                	<a href="#" title="" >Orders and Returns</a>
+                                </li>
+                                <li class=" last" >
+                                	<a href="#" title="" >Contact Us</a>
+                                </li>
 			            	</ul>
 	           
-	        				<div class="f-left"><address>&copy; 2013 Giftshop Online Store. All Rights Reserved.</address> Magento Themes by <a href="http://galathemes.com/magento-themes.html" title="Premium Magento Themes &amp; Premium Magento Templates" >galathemes.com</a></div>
-	                		<p class="footer-logo f-right"><a href="#"><span class="brand-logo visa">visa</span></a> <a href="#"><span class="brand-logo visa-verified">visa verified</span></a> <a href="#"><span class="brand-logo master">master</span></a> <a href="#"><span class="brand-logo master-secure">master secure</span></a> <a href="#"><span class="brand-logo paypal">paypal</span></a></p>      </div>
+	        				<div class="f-left">
+	        					<address>&copy; 2013 Giftshop Online Store. All Rights Reserved.</address> Magento Themes by 
+	        					<a href="#" title="" >galathemes.com</a>
+	        				</div>
+	                		<p class="footer-logo f-right">
+	                			<a href="#">
+	                				<span class="brand-logo visa">visa</span>
+	                			</a>
+	                			<a href="#">
+	                				<span class="brand-logo visa-verified">visa verified</span>
+	                			</a>
+	                			<a href="#">
+	                				<span class="brand-logo master">master</span>
+	                			</a>
+	                			<a href="#">
+	                				<span class="brand-logo master-secure">master secure</span>
+	                			</a>
+	                			<a href="#">
+	                				<span class="brand-logo paypal">paypal</span>
+	                			</a>
+	                		</p>
+	                	</div>
 	    			</div>
 	    			<div class="clear"></div>
 	  			</div>
 			</div>
-		<p id="back-top"><a title="Back to Top" href="#top">Back to Top</a></p>
+			<p id="back-top">
+				<a title="Back to Top" href="#top">Back to Top</a>
+			</p>
 </body>
 </html>

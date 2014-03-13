@@ -468,7 +468,7 @@ body .wrapper.em-box-custom {
 display:inline-block;
 width:100%;
 background-color:#fff;
-background-image: url(http://demo.galathemes.com/gala-giftshop/media/background/stores/13/pattern_blue.jpg);
+background-image: url("../images/pattern_blue.jpg");
 background-position: 0 0;
 background-repeat: repeat;}
 
@@ -2143,7 +2143,7 @@ color:#f26463;}
 .compare-table ul.add-to-links li{margin:0;}
 .page-popup .page-title {margin-bottom:25px;}
 .page-popup{background-color:#fff;
-background-image: url(http://demo.galathemes.com/gala-giftshop/media/background/stores/13/pattern_blue.jpg);
+background-image: url("../images/pattern_blue.jpg");
 background-position: 0 0;
 background-repeat: repeat;}
 .page-popup .link-print{
